@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // Підсвічує всі місця, де не вказано тип
+    // Однак це не означає, що тепер зовсім не можна використовувати any.
+    // Це означає лише, що у подібних ситуаціях розробник повинен явно писати any,
+    "noImplicitAny": true,
+    "module": "es6",
+    // У яку специфікацію компілюємо: підтримки більшості браузерів
+    "target": "es5",
+    "jsx": "react",
+    // Компілятор буде обробляти як TS файли, а й JS файли
+    "allowJs": true,
+    "moduleResolution": "node",
+    // esModuleInterop дозволяє працювати з пакетами, які використовують
+    // common js як із звичайними пакетами за допомогою import (require() module.export) = common js
+    // import Moment from 'moment';
+    // без прапора esModuleInterop результат undefined
+    // console.log(Moment);
+    // з прапором результат [object Object]
+    // console.log(Moment);
+    "esModuleInterop": true,
+    // Якщо бібліотека не має default import,
+    // лоадери на кшталт ts-loader або babel-loader автоматично створюють їх
+    // замість такого імпорту
+    // import * as React from 'react';
+    // можна писати такий
+    // import React from 'react';
+    "allowSyntheticDefaultImports": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
