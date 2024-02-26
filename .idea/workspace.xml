@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Z7VFuTIHVznq9qOJ8cDPHCxAB2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/lib/classNames" />
+      <recent name="$PROJECT_DIR$/src/shared/lib" />
+      <recent name="$PROJECT_DIR$/src/pages/MainPage/ui" />
+      <recent name="$PROJECT_DIR$/src/pages/AboutPage/ui" />
+      <recent name="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build:dev">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/build/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.tsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.tsx" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="build:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build:dev" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.index.tsx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="" />
+      <created>1701773008953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701773008953</updated>
+      <workItem from="1701773013616" duration="782000" />
+      <workItem from="1702287392294" duration="30811000" />
+      <workItem from="1708940605551" duration="4423000" />
+    </task>
+    <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
+      <created>1702297376213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702297376213</updated>
+    </task>
+    <task id="LOCAL-00002" summary="02 webpack config decomposition">
+      <created>1702301851632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702301851632</updated>
+    </task>
+    <task id="LOCAL-00003" summary="03 added and configured webpack-dev-server">
+      <created>1702305395136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702305395136</updated>
+    </task>
+    <task id="LOCAL-00004" summary="04 added react and css loaders">
+      <created>1702378853723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702378853724</updated>
+    </task>
+    <task id="LOCAL-00005" summary="05 configured css modules">
+      <created>1702381480742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702381480742</updated>
+    </task>
+    <task id="LOCAL-00006" summary="06 added react-router and lazy and suspence">
+      <created>1702460994013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702460994016</updated>
+    </task>
+    <task id="LOCAL-00007" summary="07 added theme, theme context and hook useTheme">
+      <created>1702558526045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702558526045</updated>
+    </task>
+    <task id="LOCAL-00008" summary="08 added helper classNames">
+      <created>1702560671806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702560671806</updated>
+    </task>
+    <task id="LOCAL-00009" summary="10 configured project architectury">
+      <created>1702565587162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702565587162</updated>
+    </task>
+    <task id="LOCAL-00010" summary="11 created routeConfig">
+      <created>1702566978244</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702566978244</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="01 basic webpack, added typescript" />
+    <MESSAGE value="02 webpack config decomposition" />
+    <MESSAGE value="03 added and configured webpack-dev-server" />
+    <MESSAGE value="04 added react and css loaders" />
+    <MESSAGE value="05 configured css modules" />
+    <MESSAGE value="06 added react-router and lazy and suspence" />
+    <MESSAGE value="07 added theme, theme context and hook useTheme" />
+    <MESSAGE value="08 added helper classNames" />
+    <MESSAGE value="10 configured project architectury" />
+    <MESSAGE value="11 created routeConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="11 created routeConfig" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
