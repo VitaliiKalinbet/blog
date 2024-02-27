@@ -9,7 +9,7 @@
     // У яку специфікацію компілюємо: підтримки більшості браузерів
     "target": "es5",
     // замінили react на react-jsx щоб не треба було ніде в компонентах робити: import React from 'react';
-    "jsx": "react-jsx",
+    "jsx": "react",
     // Компілятор буде обробляти як TS файли, а й JS файли
     "allowJs": true,
     "moduleResolution": "node",
