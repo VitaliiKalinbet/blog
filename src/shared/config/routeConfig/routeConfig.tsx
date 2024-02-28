@@ -1,3 +1,4 @@
+import React from "react";
 import { RouteProps } from "react-router-dom"
 import {MainPage} from "pages/MainPage";
 import {AboutPage} from "pages/AboutPage";
