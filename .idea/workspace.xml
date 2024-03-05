@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildDevServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildDevServer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.7a32552de3fa7caaaccf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src_pages_AboutPage_AboutPage_tsx.162424acfaf013f72a2c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src_pages_MainPage_MainPage_tsx.3b945030a744b9031e04.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +89,7 @@
       <workItem from="1708940605551" duration="4738000" />
       <workItem from="1708946565796" duration="1775000" />
       <workItem from="1708956755572" duration="592000" />
-      <workItem from="1708957626102" duration="11628000" />
+      <workItem from="1708957626102" duration="13298000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -190,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709135249502</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="16 webpack hot module replacement">
+      <created>1709135839862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709135839862</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +236,8 @@
     <MESSAGE value="chore: change gitignore" />
     <MESSAGE value="14 SideBar and layout" />
     <MESSAGE value="15 react-i18n and define plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="15 react-i18n and define plugin" />
+    <MESSAGE value="16 webpack hot module replacement" />
+    <option name="LAST_COMMIT_MESSAGE" value="16 webpack hot module replacement" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
