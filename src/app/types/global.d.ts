@@ -6,18 +6,18 @@ declare module '*.scss' {
     export = classnames;
 }
 
-declare module "*.svg" {
+declare module '*.svg' {
     const content: string;
     export default content;
 }
 
-declare module "*.png";
-declare module "*.jpg";
-declare module "*.jpeg";
+declare module '*.png';
+declare module '*.jpg';
+declare module '*.jpeg';
 
 declare const __IS_DEV__: boolean;
 
-declare module "*.json" {
+declare module '*.json' {
     const value: any;
     export default value;
 }

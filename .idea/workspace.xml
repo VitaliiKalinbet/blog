@@ -2,15 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main.7a32552de3fa7caaaccf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src_pages_AboutPage_AboutPage_tsx.162424acfaf013f72a2c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src_pages_MainPage_MainPage_tsx.3b945030a744b9031e04.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildDevServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildDevServer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildResolvers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildResolvers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/types/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/types/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.async.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/LangSwitcher/ui/LangSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/LangSwitcher/ui/LangSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,28 +46,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Z7VFuTIHVznq9qOJ8cDPHCxAB2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui" />
@@ -90,6 +116,8 @@
       <workItem from="1708946565796" duration="1775000" />
       <workItem from="1708956755572" duration="592000" />
       <workItem from="1708957626102" duration="13298000" />
+      <workItem from="1709652801874" duration="404000" />
+      <workItem from="1709653346253" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -219,7 +247,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="01 basic webpack, added typescript" />
