@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="20 added jest and first test">
-      <change afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="21 NotFoundPage, Loader">
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Loader/Loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/PageLoader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/PageLoader/ui/PageLoader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/PageLoader/ui/PageLoader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.stylesheets.stylelint",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,7 +97,7 @@
       <workItem from="1708956755572" duration="592000" />
       <workItem from="1708957626102" duration="13298000" />
       <workItem from="1709652801874" duration="404000" />
-      <workItem from="1709653346253" duration="4677000" />
+      <workItem from="1709653346253" duration="6613000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -218,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709656920452</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20 added jest and first test">
+      <created>1710343116953</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710343116953</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +268,8 @@
     <MESSAGE value="18 added eslint and fix files" />
     <MESSAGE value="19 added stylelint, i18n-plugin for eslint, and fixed styles files" />
     <MESSAGE value="20 added jest and first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="20 added jest and first test" />
+    <MESSAGE value="21 NotFoundPage, Loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="21 NotFoundPage, Loader" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
