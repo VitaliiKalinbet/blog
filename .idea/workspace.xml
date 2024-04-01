@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="22 added ErrorBoundary, PageError">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="23 added webpack-bundle-analyzer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <workItem from="1708957626102" duration="13298000" />
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
-      <workItem from="1711963490952" duration="4352000" />
+      <workItem from="1711963490952" duration="4640000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711983116660</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="23 added webpack-bundle-analyzer">
+      <created>1711984085527</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711984085527</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +281,8 @@
     <MESSAGE value="20 added jest and first test" />
     <MESSAGE value="21 NotFoundPage, Loader" />
     <MESSAGE value="22 added ErrorBoundary, PageError" />
-    <option name="LAST_COMMIT_MESSAGE" value="22 added ErrorBoundary, PageError" />
+    <MESSAGE value="23 added webpack-bundle-analyzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="23 added webpack-bundle-analyzer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
