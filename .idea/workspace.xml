@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="22 added ErrorBoundary, PageError">
-      <change afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/BugButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/PageError/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,7 @@
       <workItem from="1708957626102" duration="13298000" />
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
-      <workItem from="1711963490952" duration="3778000" />
+      <workItem from="1711963490952" duration="4352000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -239,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710345548801</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="22 added ErrorBoundary, PageError">
+      <created>1711983116659</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711983116660</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
