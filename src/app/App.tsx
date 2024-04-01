@@ -11,7 +11,7 @@ const App = () => {
 
     return (
         <div className={classNames('app', {}, [theme])}>
-            <Suspense fallback="loading">
+            <Suspense fallback="">
                 <NavBar />
                 <div className="content-page">
                     <SideBar />

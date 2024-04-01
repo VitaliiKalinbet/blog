@@ -3,5 +3,8 @@
   "langEng": "Англійська",
   "main": "Головна",
   "about": "Про сайт",
-  "pageNotFound": "Сторінка не знайдена"
+  "pageNotFound": "Сторінка не знайдена",
+  "errorText": "Щось пішло не так",
+  "refreshPage": "Перезавантажити сторінку",
+  "throwError": "throwError"
 }
