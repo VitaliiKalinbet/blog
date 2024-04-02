@@ -1,0 +1,12 @@
+{
+  "about": "about",
+  "errorText": "errorText",
+  "langEng": "langEng",
+  "langUkr": "langUkr",
+  "main": "main",
+  "mainPage": "mainPage",
+  "pageNotFound": "pageNotFound",
+  "refreshPage": "refreshPage",
+  "throwError": "throwError",
+  "toggleSideBar": "toggleSideBar"
+}

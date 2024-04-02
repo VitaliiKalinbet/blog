@@ -6,5 +6,6 @@
   "pageNotFound": "Page not found",
   "errorText": "Something went wrong",
   "refreshPage": "Refresh page",
-  "throwError": "throwError"
+  "throwError": "throwError",
+  "toggleSideBar": "toggleSideBar"
 }

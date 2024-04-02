@@ -6,5 +6,6 @@
   "pageNotFound": "Сторінка не знайдена",
   "errorText": "Щось пішло не так",
   "refreshPage": "Перезавантажити сторінку",
-  "throwError": "throwError"
+  "throwError": "throwError",
+  "toggleSideBar": "toggleSideBar"
 }
