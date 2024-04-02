@@ -2,27 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="24 add react-testing-library, tests for Button and SideBar">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/jestEmptyComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/theme-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/theme-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/user-32-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/config/i18n/i18nForTest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/tests/renderWithTranslation/renderWithTranslation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/build/loaders/buildCssLoader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/storybook/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/storybook/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/RouterDecorator/RouterDecorator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/StyleDecorator/StyleDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecorator/ThemeDecorator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Loader/Loader.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +113,7 @@
       <workItem from="1708957626102" duration="13298000" />
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
-      <workItem from="1711963490952" duration="9373000" />
+      <workItem from="1711963490952" duration="16879000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -270,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711984178661</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="24 add react-testing-library, tests for Button and SideBar">
+      <created>1712054271087</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712054271087</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
