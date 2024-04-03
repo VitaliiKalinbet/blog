@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main github workflow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712154218806</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="change main github workflow">
+      <created>1712154365082</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1712154365082</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +351,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10 configured project architectury" />
     <MESSAGE value="11 created routeConfig" />
     <MESSAGE value="13 svg loader, file loader, button ui kit" />
     <MESSAGE value="chore: change gitignore" />
@@ -368,7 +375,8 @@
     <MESSAGE value="change env token" />
     <MESSAGE value="change npmrc" />
     <MESSAGE value="change main workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="change main workflow" />
+    <MESSAGE value="change main github workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main github workflow" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
