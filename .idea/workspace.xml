@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="27 ci pipeline">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="changes-eslint-rules" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,11 +45,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui" />
       <recent name="$PROJECT_DIR$/src/shared/lib/classNames" />
       <recent name="$PROJECT_DIR$/src/shared/lib" />
       <recent name="$PROJECT_DIR$/src/pages/MainPage/ui" />
-      <recent name="$PROJECT_DIR$/src/pages/AboutPage/ui" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build:dev">
@@ -303,8 +309,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="02 webpack config decomposition" />
-    <MESSAGE value="03 added and configured webpack-dev-server" />
     <MESSAGE value="04 added react and css loaders" />
     <MESSAGE value="05 configured css modules" />
     <MESSAGE value="06 added react-router and lazy and suspence" />
@@ -328,7 +332,9 @@
     <MESSAGE value="25 added storybook and stories, decorators" />
     <MESSAGE value="26 added loki screenshots tests" />
     <MESSAGE value="27 ci pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="27 ci pipeline" />
+    <MESSAGE value="switch to off react/jsx-props-no-spreading" />
+    <MESSAGE value="added workflows folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added workflows folder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
