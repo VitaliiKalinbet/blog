@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 16.x ]
+        node-version: [ 17.x ]
 
     steps:
       - uses: actions/checkout@v2
@@ -19,6 +19,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: install modules
         run: npm install
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
       - name: build production project
         run: npm run build:prod
       - name: linting typescript
