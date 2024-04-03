@@ -20,7 +20,7 @@ jobs:
       - name: install modules
         run: npm install
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
       - name: build production project
         run: npm run build:prod
       - name: linting typescript
