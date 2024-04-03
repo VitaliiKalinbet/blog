@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change npmrc" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712153329975</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="change main workflow">
+      <created>1712154218806</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712154218806</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="08 added helper classNames" />
     <MESSAGE value="10 configured project architectury" />
     <MESSAGE value="11 created routeConfig" />
     <MESSAGE value="13 svg loader, file loader, button ui kit" />
@@ -359,7 +367,8 @@
     <MESSAGE value="change version of node to 17 in workflows" />
     <MESSAGE value="change env token" />
     <MESSAGE value="change npmrc" />
-    <option name="LAST_COMMIT_MESSAGE" value="change npmrc" />
+    <MESSAGE value="change main workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main workflow" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
