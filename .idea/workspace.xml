@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change env token">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-    </list>
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change npmrc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -312,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712152420857</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="change npmrc">
+      <created>1712153329975</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712153329975</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +334,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07 added theme, theme context and hook useTheme" />
     <MESSAGE value="08 added helper classNames" />
     <MESSAGE value="10 configured project architectury" />
     <MESSAGE value="11 created routeConfig" />
@@ -355,7 +358,8 @@
     <MESSAGE value="change version of node to 16 in workflows" />
     <MESSAGE value="change version of node to 17 in workflows" />
     <MESSAGE value="change env token" />
-    <option name="LAST_COMMIT_MESSAGE" value="change env token" />
+    <MESSAGE value="change npmrc" />
+    <option name="LAST_COMMIT_MESSAGE" value="change npmrc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
