@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="25 added storybook and stories, decorators">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="27 ci pipeline">
+      <change afterPath="$PROJECT_DIR$/.github/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <workItem from="1708957626102" duration="13298000" />
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
-      <workItem from="1711963490952" duration="20191000" />
+      <workItem from="1711963490952" duration="21250000" />
     </task>
     <task id="LOCAL-00001" summary="01 basic webpack, added typescript">
       <created>1702297376213</created>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712071326169</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="26 added loki screenshots tests">
+      <created>1712137699491</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712137699491</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01 basic webpack, added typescript" />
     <MESSAGE value="02 webpack config decomposition" />
     <MESSAGE value="03 added and configured webpack-dev-server" />
     <MESSAGE value="04 added react and css loaders" />
@@ -307,7 +313,9 @@
     <MESSAGE value="23 webpack-bundle-analyzer settings" />
     <MESSAGE value="24 add react-testing-library, tests for Button and SideBar" />
     <MESSAGE value="25 added storybook and stories, decorators" />
-    <option name="LAST_COMMIT_MESSAGE" value="25 added storybook and stories, decorators" />
+    <MESSAGE value="26 added loki screenshots tests" />
+    <MESSAGE value="27 ci pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="27 ci pipeline" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
