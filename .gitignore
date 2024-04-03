@@ -51,6 +51,8 @@ web_modules/
 # Optional npm cache directory
 .npm
 
+workspace.xml
+
 # Optional eslint cache
 .eslintcache
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main github workflow">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change .npmrc">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712154365082</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="change .npmrc">
+      <created>1712154498114</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1712154498114</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +358,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11 created routeConfig" />
     <MESSAGE value="13 svg loader, file loader, button ui kit" />
     <MESSAGE value="chore: change gitignore" />
     <MESSAGE value="14 SideBar and layout" />
@@ -376,7 +382,8 @@
     <MESSAGE value="change npmrc" />
     <MESSAGE value="change main workflow" />
     <MESSAGE value="change main github workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="change main github workflow" />
+    <MESSAGE value="change .npmrc" />
+    <option name="LAST_COMMIT_MESSAGE" value="change .npmrc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
