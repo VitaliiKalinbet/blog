@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Clear npm cache
+        run: npm cache clean --force
       - name: Setup .npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}" > .npmrc
       - name: Log token
