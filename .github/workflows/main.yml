@@ -17,6 +17,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Setup .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}" > .npmrc
+      - name: Log token
+        run: echo "${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}"
+      - name: Log token
+        run: echo "${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}"
+      - name: Log npm version
+        run: echo "npm -v"
+      - name: Log node version
+        run: echo "node -v"
       - name: install modules
         run: npm install
       - name: build production project
