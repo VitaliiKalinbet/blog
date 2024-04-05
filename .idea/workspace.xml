@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow 5">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow 6">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -388,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712303999103</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="change main workflow 6">
+      <created>1712306524874</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1712306524877</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19 added stylelint, i18n-plugin for eslint, and fixed styles files" />
     <MESSAGE value="20 added jest and first test" />
     <MESSAGE value="21 NotFoundPage, Loader" />
     <MESSAGE value="22 added ErrorBoundary, PageError" />
@@ -431,7 +438,8 @@
     <MESSAGE value="change main workflow 3" />
     <MESSAGE value="change main workflow 4" />
     <MESSAGE value="change main workflow 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="change main workflow 5" />
+    <MESSAGE value="change main workflow 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main workflow 6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
