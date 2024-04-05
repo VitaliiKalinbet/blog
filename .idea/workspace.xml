@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="use npm token">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="delete .npmrc and change gitignore">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712307422286</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="delete .npmrc and change gitignore">
+      <created>1712308792748</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1712308792748</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22 added ErrorBoundary, PageError" />
     <MESSAGE value="23 added webpack-bundle-analyzer" />
     <MESSAGE value="23 webpack-bundle-analyzer settings" />
     <MESSAGE value="24 add react-testing-library, tests for Button and SideBar" />
@@ -454,7 +458,8 @@
     <MESSAGE value="change main workflow 6" />
     <MESSAGE value="change main workflow 7" />
     <MESSAGE value="use npm token" />
-    <option name="LAST_COMMIT_MESSAGE" value="use npm token" />
+    <MESSAGE value="delete .npmrc and change gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete .npmrc and change gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
