@@ -19,12 +19,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Setup .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.PERSONAL_GITHUB_TOKEN }}" > .npmrc
       - name: install modules
-        run: | 
-          npm -v
-          echo npm -v
-          npm install
+        run: npm install
       - name: build production project
         run: npm run build:prod
       - name: linting typescript
