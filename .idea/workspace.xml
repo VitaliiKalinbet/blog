@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow 6">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow 7">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -396,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712306524877</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="change main workflow 7">
+      <created>1712307000606</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1712307000607</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +421,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20 added jest and first test" />
     <MESSAGE value="21 NotFoundPage, Loader" />
     <MESSAGE value="22 added ErrorBoundary, PageError" />
     <MESSAGE value="23 added webpack-bundle-analyzer" />
@@ -439,7 +445,8 @@
     <MESSAGE value="change main workflow 4" />
     <MESSAGE value="change main workflow 5" />
     <MESSAGE value="change main workflow 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="change main workflow 6" />
+    <MESSAGE value="change main workflow 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main workflow 7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
