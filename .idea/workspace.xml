@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change github workflows and use node 17 and npm token" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -423,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712309047269</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="change github workflows and use node 17 and npm token">
+      <created>1712309179061</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309179061</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="23 added webpack-bundle-analyzer" />
     <MESSAGE value="23 webpack-bundle-analyzer settings" />
     <MESSAGE value="24 add react-testing-library, tests for Button and SideBar" />
     <MESSAGE value="25 added storybook and stories, decorators" />
@@ -466,7 +470,8 @@
     <MESSAGE value="use npm token" />
     <MESSAGE value="delete .npmrc and change gitignore" />
     <MESSAGE value="change main workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="change main workflow" />
+    <MESSAGE value="change github workflows and use node 17 and npm token" />
+    <option name="LAST_COMMIT_MESSAGE" value="change github workflows and use node 17 and npm token" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
