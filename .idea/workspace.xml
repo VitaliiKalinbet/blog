@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="delete .npmrc and change gitignore">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -416,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712308792748</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="change main workflow">
+      <created>1712309047269</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309047269</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +457,6 @@
     <MESSAGE value="change .npmrc" />
     <MESSAGE value="change gitignore" />
     <MESSAGE value="change workflow" />
-    <MESSAGE value="change main workflow" />
     <MESSAGE value="change main workflow 2" />
     <MESSAGE value="change main workflow 3" />
     <MESSAGE value="change main workflow 4" />
@@ -459,7 +465,8 @@
     <MESSAGE value="change main workflow 7" />
     <MESSAGE value="use npm token" />
     <MESSAGE value="delete .npmrc and change gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete .npmrc and change gitignore" />
+    <MESSAGE value="change main workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main workflow" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
