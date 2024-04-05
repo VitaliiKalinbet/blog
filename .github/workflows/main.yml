@@ -1,44 +1,33 @@
 name: linting, testing, building
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   pipeline:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 17.x ]
+        node-version: [ 16.x ]
 
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v2
+      - name: Staring Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          node-version: '17'
-          registry-url: 'https://registry.npmjs.org/'
-
-      - name: Setup .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG }}" > .npmrc
-
+          node-version: ${{ matrix.node-version }}
       - name: install modules
         run: npm install
-
       - name: build production project
         run: npm run build:prod
-
       - name: linting typescript
         run: npm run lint:ts
-
       - name: linting css
         run: npm run lint:scss
-
       - name: unit testing
         run: npm run test:unit
-
       - name: build storybook
         run: npm run storybook:build
-
       - name: screenshot testing
         run: npm run test:ui:ci

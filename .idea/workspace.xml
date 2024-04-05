@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change readme">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change branches">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +93,6 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00002" summary="02 webpack config decomposition">
-      <created>1702301851632</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1702301851632</updated>
     </task>
     <task id="LOCAL-00003" summary="03 added and configured webpack-dev-server">
       <created>1702305395136</created>
@@ -437,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712316128155</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="change branches">
+      <created>1712327005342</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1712327005354</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="25 added storybook and stories, decorators" />
     <MESSAGE value="26 added loki screenshots tests" />
     <MESSAGE value="27 ci pipeline" />
     <MESSAGE value="switch to off react/jsx-props-no-spreading" />
@@ -480,7 +479,8 @@
     <MESSAGE value="change github workflows and use node 17 and npm token" />
     <MESSAGE value="improve main.yml" />
     <MESSAGE value="change readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="change readme" />
+    <MESSAGE value="change branches" />
+    <option name="LAST_COMMIT_MESSAGE" value="change branches" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
