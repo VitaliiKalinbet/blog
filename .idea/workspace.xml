@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change branches">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main.yml to initial">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +93,6 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00003" summary="03 added and configured webpack-dev-server">
-      <created>1702305395136</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1702305395136</updated>
     </task>
     <task id="LOCAL-00004" summary="04 added react and css loaders">
       <created>1702378853723</created>
@@ -437,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712327005354</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="change main.yml to initial">
+      <created>1712327094414</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1712327094415</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="26 added loki screenshots tests" />
     <MESSAGE value="27 ci pipeline" />
     <MESSAGE value="switch to off react/jsx-props-no-spreading" />
     <MESSAGE value="added workflows folder" />
@@ -480,7 +479,8 @@
     <MESSAGE value="improve main.yml" />
     <MESSAGE value="change readme" />
     <MESSAGE value="change branches" />
-    <option name="LAST_COMMIT_MESSAGE" value="change branches" />
+    <MESSAGE value="change main.yml to initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main.yml to initial" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
