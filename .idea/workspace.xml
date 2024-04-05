@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow 3">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="change main workflow 4">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712225466877</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="change main workflow 4">
+      <created>1712225586313</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1712225586313</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16 webpack hot module replacement" />
     <MESSAGE value="18 added eslint and fix files" />
     <MESSAGE value="19 added stylelint, i18n-plugin for eslint, and fixed styles files" />
     <MESSAGE value="20 added jest and first test" />
@@ -417,7 +423,8 @@
     <MESSAGE value="change main workflow" />
     <MESSAGE value="change main workflow 2" />
     <MESSAGE value="change main workflow 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="change main workflow 3" />
+    <MESSAGE value="change main workflow 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="change main workflow 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

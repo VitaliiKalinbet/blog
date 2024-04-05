@@ -18,10 +18,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Staring NPM ${{ matrix.npm-version }}
-        uses: actions/setup-npm@v1
-        with:
-          npm-version: ${{ matrix.npm-version }}
+      - name: Setup .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
       - name: install modules
         run: | 
           npm -v
