@@ -1,2 +1,2 @@
 # blog
-A project to improve programming skills
+A project to improve programming skills.
