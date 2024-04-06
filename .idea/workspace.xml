@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="added 18 node">
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="added npmrc file">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -95,13 +94,6 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00009" summary="10 configured project architectury">
-      <created>1702565587162</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1702565587162</updated>
     </task>
     <task id="LOCAL-00010" summary="11 created routeConfig">
       <created>1702566978244</created>
@@ -439,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712328737194</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added npmrc file">
+      <created>1712329187366</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1712329187366</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change env token" />
     <MESSAGE value="change npmrc" />
     <MESSAGE value="change main github workflow" />
     <MESSAGE value="change .npmrc" />
@@ -482,7 +480,8 @@
     <MESSAGE value="added clear npm cache" />
     <MESSAGE value="added latest npm version" />
     <MESSAGE value="added 18 node" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 18 node" />
+    <MESSAGE value="added npmrc file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added npmrc file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
