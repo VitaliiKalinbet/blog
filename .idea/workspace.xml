@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="upggrade node version">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="recreate package-lock.json">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +94,6 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00011" summary="13 svg loader, file loader, button ui kit">
-      <created>1709026092778</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1709026092779</updated>
-    </task>
-    <task id="LOCAL-00012" summary="chore: change gitignore">
-      <created>1709026246264</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1709026246264</updated>
     </task>
     <task id="LOCAL-00013" summary="chore: change gitignore">
       <created>1709026325871</created>
@@ -438,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712395367813</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="delete .npmrc file, recreate package-lock.json">
+      <created>1712396277138</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1712396277139</updated>
+    </task>
+    <task id="LOCAL-00061" summary="recreate package-lock.json">
+      <created>1712396304326</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1712396304326</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,8 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change main github workflow" />
-    <MESSAGE value="change .npmrc" />
     <MESSAGE value="change gitignore" />
     <MESSAGE value="change workflow" />
     <MESSAGE value="change main workflow 2" />
@@ -481,7 +479,9 @@
     <MESSAGE value="added 18 node" />
     <MESSAGE value="added npmrc file" />
     <MESSAGE value="upggrade node version" />
-    <option name="LAST_COMMIT_MESSAGE" value="upggrade node version" />
+    <MESSAGE value="delete .npmrc file, recreate package-lock.json" />
+    <MESSAGE value="recreate package-lock.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="recreate package-lock.json" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
