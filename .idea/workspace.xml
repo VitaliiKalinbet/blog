@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="added npmrc file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="upggrade node version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +94,6 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00010" summary="11 created routeConfig">
-      <created>1702566978244</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1702566978244</updated>
     </task>
     <task id="LOCAL-00011" summary="13 svg loader, file loader, button ui kit">
       <created>1709026092778</created>
@@ -438,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712329187366</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="upggrade node version">
+      <created>1712395367812</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1712395367813</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change npmrc" />
     <MESSAGE value="change main github workflow" />
     <MESSAGE value="change .npmrc" />
     <MESSAGE value="change gitignore" />
@@ -481,7 +480,8 @@
     <MESSAGE value="added latest npm version" />
     <MESSAGE value="added 18 node" />
     <MESSAGE value="added npmrc file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added npmrc file" />
+    <MESSAGE value="upggrade node version" />
+    <option name="LAST_COMMIT_MESSAGE" value="upggrade node version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

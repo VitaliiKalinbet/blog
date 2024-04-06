@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 20.x ]
+        node-version: [ 17.x ]
 
     steps:
       - uses: actions/checkout@v2
@@ -17,22 +17,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Setup .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}" > .npmrc
-      - name: Copy .npmrc
-        run: cp .npmrc $HOME/.npmrc
-      - name: Update npm
-        run: npm install -g npm@latest
-      - name: Clear npm cache
-        run: npm cache clean --force
-      - name: Log token
-        run: echo "${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}"
-      - name: Log token
-        run: echo "${{secrets.PERSONAL_NPM_ACCESS_TOKEN_FOR_BLOG}}"
-      - name: Log npm version
-        run: echo "npm -v"
-      - name: Log node version
-        run: echo "node -v"
       - name: install modules
         run: npm install
       - name: build production project
