@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="28 upgrade SideBar, fix github workflow, improve Button">
-      <change afterPath="$PROJECT_DIR$/scripts/generate-visual-json-report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="28 added reg-cli, approve ui tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,13 +95,6 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00016" summary="16 webpack hot module replacement">
-      <created>1709135839862</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1709135839862</updated>
     </task>
     <task id="LOCAL-00017" summary="18 added eslint and fix files">
       <created>1709654756360</created>
@@ -443,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712584796292</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="28 added reg-cli, approve ui tests">
+      <created>1712585820771</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1712585820771</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change main workflow 2" />
     <MESSAGE value="change main workflow 3" />
     <MESSAGE value="change main workflow 4" />
     <MESSAGE value="change main workflow 5" />
@@ -486,7 +481,8 @@
     <MESSAGE value="recreate package-lock.json" />
     <MESSAGE value="used node v18.14.2" />
     <MESSAGE value="28 upgrade SideBar, fix github workflow, improve Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="28 upgrade SideBar, fix github workflow, improve Button" />
+    <MESSAGE value="28 added reg-cli, approve ui tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="28 added reg-cli, approve ui tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
