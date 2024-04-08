@@ -1,12 +1,16 @@
 {
   "about": "",
+  "aboutPageLinkText": "aboutPageLinkText",
   "errorText": "errorText",
   "langEng": "",
   "langUkr": "",
   "main": "",
   "mainPage": "",
+  "mainPageLinkText": "mainPageLinkText",
   "pageNotFound": "pageNotFound",
   "refreshPage": "refreshPage",
   "throwError": "throwError",
-  "toggleSideBar": "toggleSideBar"
+  "toggleSideBar": "toggleSideBar",
+  "Главная": "Главная",
+  "О сайте": "О сайте"
 }

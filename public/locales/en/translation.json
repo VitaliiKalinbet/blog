@@ -1,11 +1,12 @@
 {
-  "langUkr": "Ukrainian",
-  "langEng": "English",
+  "lang": "English",
+  "shortLang": "En",
   "main": "Main",
   "about": "About website",
   "pageNotFound": "Page not found",
   "errorText": "Something went wrong",
   "refreshPage": "Refresh page",
   "throwError": "throwError",
-  "toggleSideBar": "toggleSideBar"
+  "mainPageLinkText": "Main",
+  "aboutPageLinkText": "About"
 }

@@ -1,11 +1,12 @@
 {
-  "langUkr": "Українська",
-  "langEng": "Англійська",
+  "lang": "Українська",
+  "shortLang": "Укр",
   "main": "Головна",
   "about": "Про сайт",
   "pageNotFound": "Сторінка не знайдена",
   "errorText": "Щось пішло не так",
   "refreshPage": "Перезавантажити сторінку",
   "throwError": "throwError",
-  "toggleSideBar": "toggleSideBar"
+  "mainPageLinkText": "Головна",
+  "aboutPageLinkText": "Про сайт"
 }
