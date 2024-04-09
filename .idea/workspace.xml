@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="29 change loki references">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="30 add redux toolkit, counter">
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounter/getCounter.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounter/getCounter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounterValue/getCounterValue.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounterValue/getCounterValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/slice/counterSlice.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/slice/counterSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/types/counterSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/ui/Counter.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/ui/Counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/componentRender/componentRender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/componentRender/componentRender.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +121,7 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-      <workItem from="1712659445298" duration="8914000" />
-    </task>
-    <task id="LOCAL-00020" summary="21 NotFoundPage, Loader">
-      <created>1710345548801</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1710345548801</updated>
+      <workItem from="1712659445298" duration="17525000" />
     </task>
     <task id="LOCAL-00021" summary="22 added ErrorBoundary, PageError">
       <created>1711983116659</created>
@@ -442,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712669027458</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="29 change command test:ui:ok">
+      <created>1712669086000</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1712669086000</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,8 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change main workflow 6" />
-    <MESSAGE value="change main workflow 7" />
     <MESSAGE value="use npm token" />
     <MESSAGE value="delete .npmrc and change gitignore" />
     <MESSAGE value="change main workflow" />
@@ -485,7 +507,9 @@
     <MESSAGE value="28 approved ui tests" />
     <MESSAGE value="29 add modal, portal, change header" />
     <MESSAGE value="29 change loki references" />
-    <option name="LAST_COMMIT_MESSAGE" value="29 change loki references" />
+    <MESSAGE value="29 change command test:ui:ok" />
+    <MESSAGE value="30 add redux toolkit, counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="30 add redux toolkit, counter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
