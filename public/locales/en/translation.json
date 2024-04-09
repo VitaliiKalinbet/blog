@@ -8,5 +8,6 @@
   "refreshPage": "Refresh page",
   "throwError": "throwError",
   "mainPageLinkText": "Main",
-  "aboutPageLinkText": "About"
+  "aboutPageLinkText": "About",
+  "login": "Enter"
 }

@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="28 added reg-cli, approve ui tests" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="29 add modal, portal, change header">
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Portal/Portal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_AboutPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_AboutPage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_AboutPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_AboutPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_NotFoundPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_NotFoundPage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_NotFoundPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_NotFoundPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ThemeSwitcher_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ThemeSwitcher_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_PageError_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_PageError_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_PageError_Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_PageError_Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_AboutPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_AboutPage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_AboutPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_AboutPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_NotFoundPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_NotFoundPage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_NotFoundPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_NotFoundPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ThemeSwitcher_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ThemeSwitcher_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_PageError_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_PageError_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_PageError_Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_PageError_Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecorator/ThemeDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecorator/ThemeDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,13 +142,7 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-    </task>
-    <task id="LOCAL-00017" summary="18 added eslint and fix files">
-      <created>1709654756360</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1709654756360</updated>
+      <workItem from="1712659445298" duration="7155000" />
     </task>
     <task id="LOCAL-00018" summary="19 added stylelint, i18n-plugin for eslint, and fixed styles files">
       <created>1709656920451</created>
@@ -439,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712585820771</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="28 approved ui tests">
+      <created>1712586662901</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1712586662901</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,8 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change main workflow 3" />
-    <MESSAGE value="change main workflow 4" />
     <MESSAGE value="change main workflow 5" />
     <MESSAGE value="change main workflow 6" />
     <MESSAGE value="change main workflow 7" />
@@ -482,7 +528,9 @@
     <MESSAGE value="used node v18.14.2" />
     <MESSAGE value="28 upgrade SideBar, fix github workflow, improve Button" />
     <MESSAGE value="28 added reg-cli, approve ui tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="28 added reg-cli, approve ui tests" />
+    <MESSAGE value="28 approved ui tests" />
+    <MESSAGE value="29 add modal, portal, change header" />
+    <option name="LAST_COMMIT_MESSAGE" value="29 add modal, portal, change header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

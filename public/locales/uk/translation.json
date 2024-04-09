@@ -8,5 +8,6 @@
   "refreshPage": "Перезавантажити сторінку",
   "throwError": "throwError",
   "mainPageLinkText": "Головна",
-  "aboutPageLinkText": "Про сайт"
+  "aboutPageLinkText": "Про сайт",
+  "login": "Увійти"
 }
