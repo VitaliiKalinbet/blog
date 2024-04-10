@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="30 add redux toolkit, counter">
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="31 fix styles for modal">
+      <change afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +101,7 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-      <workItem from="1712659445298" duration="19183000" />
-    </task>
-    <task id="LOCAL-00022" summary="23 added webpack-bundle-analyzer">
-      <created>1711984085527</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1711984085527</updated>
+      <workItem from="1712659445298" duration="20028000" />
     </task>
     <task id="LOCAL-00023" summary="23 webpack-bundle-analyzer settings">
       <created>1711984178660</created>
@@ -448,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712679961867</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="31 fix styles for modal">
+      <created>1712741942794</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1712741942794</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use npm token" />
     <MESSAGE value="delete .npmrc and change gitignore" />
     <MESSAGE value="change main workflow" />
     <MESSAGE value="change github workflows and use node 17 and npm token" />
@@ -491,7 +488,8 @@
     <MESSAGE value="29 change loki references" />
     <MESSAGE value="29 change command test:ui:ok" />
     <MESSAGE value="30 add redux toolkit, counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="30 add redux toolkit, counter" />
+    <MESSAGE value="31 fix styles for modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="31 fix styles for modal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
