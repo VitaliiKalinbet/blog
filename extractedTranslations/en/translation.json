@@ -1,7 +1,9 @@
 {
   "about": "",
   "aboutPageLinkText": "aboutPageLinkText",
+  "decrement": "decrement",
   "errorText": "errorText",
+  "increment": "increment",
   "langEng": "",
   "langUkr": "",
   "login": "",

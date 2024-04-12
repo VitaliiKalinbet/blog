@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="32 add auth form and modal">
-      <change afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/Input.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/Input.tsx" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="33 add husky pre-commit">
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Modal_Dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Modal_Primary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Modal_Dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Modal_Primary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Input/Input.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,14 +105,7 @@
       <workItem from="1709652801874" duration="404000" />
       <workItem from="1709653346253" duration="8236000" />
       <workItem from="1711963490952" duration="22372000" />
-      <workItem from="1712659445298" duration="27544000" />
-    </task>
-    <task id="LOCAL-00024" summary="24 add react-testing-library, tests for Button and SideBar">
-      <created>1712054271087</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1712054271087</updated>
+      <workItem from="1712659445298" duration="29624000" />
     </task>
     <task id="LOCAL-00025" summary="25 added storybook and stories, decorators">
       <created>1712071326169</created>
@@ -467,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712743048345</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="32 add auth form and modal">
+      <created>1712911522336</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1712911522337</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change github workflows and use node 17 and npm token" />
     <MESSAGE value="improve main.yml" />
     <MESSAGE value="change readme" />
     <MESSAGE value="change branches" />
@@ -510,7 +492,8 @@
     <MESSAGE value="31 fix styles for modal" />
     <MESSAGE value="31.1 add json server, approve ui tests" />
     <MESSAGE value="32 add auth form and modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="32 add auth form and modal" />
+    <MESSAGE value="33 add husky pre-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="33 add husky pre-commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
