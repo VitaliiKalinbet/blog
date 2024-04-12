@@ -9,7 +9,10 @@
   "throwError": "throwError",
   "mainPageLinkText": "Main",
   "aboutPageLinkText": "About",
-  "login": "Enter",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "login": "Authorization",
+  "loginBtn": "Login",
+  "usernamePlaceholder": "Enter username",
+  "passwordPlaceholder": "Enter password"
 }

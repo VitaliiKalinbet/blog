@@ -1,19 +1,20 @@
 {
   "about": "",
   "aboutPageLinkText": "aboutPageLinkText",
-  "decrement": "decrement",
   "errorText": "errorText",
-  "increment": "increment",
   "langEng": "",
   "langUkr": "",
   "login": "",
+  "loginBtn": "loginBtn",
   "main": "",
   "mainPage": "",
   "mainPageLinkText": "mainPageLinkText",
   "pageNotFound": "pageNotFound",
+  "passwordPlaceholder": "",
   "refreshPage": "refreshPage",
   "throwError": "throwError",
   "toggleSideBar": "toggleSideBar",
+  "usernamePlaceholder": "",
   "Главная": "Главная",
   "О сайте": "О сайте"
 }

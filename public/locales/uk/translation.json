@@ -9,7 +9,10 @@
   "throwError": "throwError",
   "mainPageLinkText": "Головна",
   "aboutPageLinkText": "Про сайт",
-  "login": "Увійти",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "login": "Авторизація",
+  "loginBtn": "Увійти",
+  "usernamePlaceholder": "Введіть імʼя користувача",
+  "passwordPlaceholder": "Введіть пароль"
 }

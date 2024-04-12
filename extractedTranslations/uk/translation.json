@@ -7,13 +7,16 @@
   "langEng": "langEng",
   "langUkr": "langUkr",
   "login": "login",
+  "loginBtn": "loginBtn",
   "main": "main",
   "mainPage": "mainPage",
   "mainPageLinkText": "mainPageLinkText",
   "pageNotFound": "pageNotFound",
+  "passwordPlaceholder": "passwordPlaceholder",
   "refreshPage": "refreshPage",
   "throwError": "throwError",
   "toggleSideBar": "toggleSideBar",
+  "usernamePlaceholder": "usernamePlaceholder",
   "Главная": "Главная",
   "О сайте": "О сайте"
 }
