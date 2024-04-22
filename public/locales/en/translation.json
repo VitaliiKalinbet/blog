@@ -14,5 +14,8 @@
   "login": "Authorization",
   "loginBtn": "Login",
   "usernamePlaceholder": "Enter username",
-  "passwordPlaceholder": "Enter password"
+  "passwordPlaceholder": "Enter password",
+  "authorizationForm": "Authorization form",
+  "incorrect password or email": "incorrect password or email",
+  "logout": "Logout"
 }

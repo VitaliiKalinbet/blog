@@ -14,5 +14,8 @@
   "login": "Авторизація",
   "loginBtn": "Увійти",
   "usernamePlaceholder": "Введіть імʼя користувача",
-  "passwordPlaceholder": "Введіть пароль"
+  "passwordPlaceholder": "Введіть пароль",
+  "authorizationForm": "Форма авторизації",
+  "incorrect password or email": "Невірний логін або пароль",
+  "logout": "Вийти"
 }
