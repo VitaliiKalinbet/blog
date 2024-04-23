@@ -1,68 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="34 authorization, User entities">
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_LoginForm_Loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_LoginForm_Primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_LoginForm_With_Error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Input_Primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Text_Error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Text_Primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_LoginForm_Loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_LoginForm_Primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_LoginForm_With_Error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Input_Primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Only_Text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Only_Text_Dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Only_Title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Only_Title_Dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Primary_Dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Auth_Navbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractedTranslations/uk/aboutPage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractedTranslations/uk/mainPage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/selectors/getUserAuthData/getUserAuthData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginState/getLoginState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/slice/loginSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/types/loginSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/TranslationDecorator/TranslationDecorator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/const/localStorage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="35 add lazy loading LoginModal, add async reducer and reducerManager">
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/reducerManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginError/getLoginError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginIsLoading/getLoginIsLoading.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginPassword/getLoginPassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginUsername/getLoginUsername.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.async.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storybook/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/aboutPage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/mainPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/mainPage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/aboutPage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/mainPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/mainPage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Counter/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Counter/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginState/getLoginState.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -98,7 +58,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -160,21 +120,8 @@
       <workItem from="1711963490952" duration="22372000" />
       <workItem from="1712659445298" duration="44681000" />
       <workItem from="1712933226075" duration="198000" />
-      <workItem from="1712933519545" duration="14192000" />
-    </task>
-    <task id="LOCAL-00025" summary="25 added storybook and stories, decorators">
-      <created>1712071326169</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1712071326169</updated>
-    </task>
-    <task id="LOCAL-00026" summary="26 added loki screenshots tests">
-      <created>1712137699491</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1712137699491</updated>
+      <workItem from="1712933519545" duration="15666000" />
+      <workItem from="1713862252888" duration="6628000" />
     </task>
     <task id="LOCAL-00027" summary="27 ci pipeline">
       <created>1712138976683</created>
@@ -505,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712911522337</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="34 authorization, User entities">
+      <created>1713795699772</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1713795699809</updated>
+    </task>
+    <task id="LOCAL-00075" summary="34 new screens">
+      <created>1713796421015</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1713796421021</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,8 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change branches" />
-    <MESSAGE value="change main.yml to initial" />
     <MESSAGE value="change main.yml to initial and branches on main" />
     <MESSAGE value="change main.yml and add logs" />
     <MESSAGE value="added clear npm cache" />
@@ -548,7 +507,9 @@
     <MESSAGE value="33 add husky pre-commit" />
     <MESSAGE value="fix translations files" />
     <MESSAGE value="34 authorization, User entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="34 authorization, User entities" />
+    <MESSAGE value="34 new screens" />
+    <MESSAGE value="35 add lazy loading LoginModal, add async reducer and reducerManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="35 add lazy loading LoginModal, add async reducer and reducerManager" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
