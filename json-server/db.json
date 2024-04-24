@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Vitalii",
+    "lastname": "Kalinbet",
+    "age": 31,
+    "currency": "UAH",
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "username": "admin",
+    "avatar": "https://as1.ftcdn.net/v2/jpg/01/88/77/70/1000_F_188777023_l0BzfxSZL3QfXa24dHX3SbxZUBOx0chb.jpg"
+  }
 }

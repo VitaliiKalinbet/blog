@@ -17,5 +17,9 @@
   "passwordPlaceholder": "Введіть пароль",
   "authorizationForm": "Форма авторизації",
   "incorrect password or email": "Невірний логін або пароль",
-  "logout": "Вийти"
+  "logout": "Вийти",
+  "profilePage": "profilePage",
+  "Main page": "Головна",
+  "About page": "Про сайт",
+  "Profile page": "Профіль"
 }
