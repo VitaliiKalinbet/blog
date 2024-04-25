@@ -22,3 +22,7 @@ declare module '*.json' {
     const value: any;
     export default value;
 }
+
+type DeepPartial<T> = T extends object ? {
+    [P in keyof T]?: DeepPartial<T[P]>;
+} : T;

@@ -3,6 +3,7 @@
   "aboutPageLinkText": "Про сайт",
   "authorizationForm": "Форма авторизації",
   "decrement": "decrement",
+  "editButton": "editButton",
   "errorText": "errorText",
   "incorrect password or email": "incorrect password or email",
   "increment": "increment",
@@ -20,5 +21,8 @@
   "refreshPage": "refreshPage",
   "throwError": "throwError",
   "toggleSideBar": "toggleSideBar",
-  "usernamePlaceholder": "Введіть імʼя користувача"
+  "userProfile": "userProfile",
+  "usernamePlaceholder": "Введіть імʼя користувача",
+  "yourName": "yourName",
+  "yourSurname": "yourSurname"
 }

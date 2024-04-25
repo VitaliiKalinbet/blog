@@ -3,6 +3,7 @@
   "aboutPageLinkText": "aboutPageLinkText",
   "authorizationForm": "",
   "decrement": "decrement",
+  "editButton": "editButton",
   "errorText": "errorText",
   "incorrect password or email": "",
   "increment": "increment",
@@ -20,7 +21,10 @@
   "refreshPage": "refreshPage",
   "throwError": "throwError",
   "toggleSideBar": "toggleSideBar",
+  "userProfile": "userProfile",
   "usernamePlaceholder": "",
+  "yourName": "yourName",
+  "yourSurname": "yourSurname",
   "Главная": "Главная",
   "О сайте": "О сайте"
 }
