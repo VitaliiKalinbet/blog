@@ -2,5 +2,13 @@
   "userProfile": "Профіль користувача",
   "editButton": "Редагувати",
   "yourName": "Ваше імʼя",
-  "yourSurname": "Ваше прізвище"
+  "yourSurname": "Ваше прізвище",
+  "errorOnProfileLoading": "Сталася помилка при завантаженні профіля",
+  "tryRefreshPage": "Спробуйте оновити сторінку",
+  "cancelEdit": "Відмінити",
+  "saveEdit": "Зберегти",
+  "yourAge": "Вік",
+  "yourCity": "Місто",
+  "enterUsername": "Введіть логін",
+  "enterLinkToAvatar": "Введіть ссилку на аватар"
 }

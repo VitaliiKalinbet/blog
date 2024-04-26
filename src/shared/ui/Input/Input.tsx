@@ -1,15 +1,16 @@
 import React, {
     FC, InputHTMLAttributes, memo, useEffect, useRef, useState,
 } from 'react';
-import { classNames } from 'shared/lib/classNames/classNames';
+import { classNames, Mods } from 'shared/lib/classNames/classNames';
 import cls from './Input.module.scss';
 
-type HTMLInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'value' | 'onChange'>
+type HTMLInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'value' | 'onChange' | 'readOnly'>
 
 interface InputProps extends HTMLInputProps {
     className?: string;
-    value?: string;
+    value?: string | number;
     onChange?: (value: string) => void;
+    readonly?: boolean;
 }
 
 export const Input: FC<InputProps> = memo(
@@ -21,6 +22,7 @@ export const Input: FC<InputProps> = memo(
             type = 'text',
             placeholder,
             autoFocus,
+            readonly,
             ...otherProps
         } = props;
 
@@ -28,6 +30,8 @@ export const Input: FC<InputProps> = memo(
         const [caretPosition, setCaretPosition] = useState(0);
 
         const ref = useRef<HTMLInputElement>(null);
+
+        const isCaretVisible = isFocused && !readonly;
 
         useEffect(() => {
             if (autoFocus) {
@@ -53,6 +57,10 @@ export const Input: FC<InputProps> = memo(
             setCaretPosition(e?.target?.selectionStart || 0);
         };
 
+        const mods: Mods = {
+            [cls.readonly]: readonly,
+        };
+
         return (
             <div
                 className={classNames(cls.InputWrapper, {}, [className])}
@@ -72,9 +80,10 @@ export const Input: FC<InputProps> = memo(
                         onFocus={onFocus}
                         onBlur={onBlur}
                         onSelect={onSelect}
+                        readOnly={readonly}
                         {...otherProps}
                     />
-                    {isFocused
+                    {isCaretVisible
                         && (
                             <span
                                 className={cls.caret}

@@ -1,6 +1,14 @@
 {
+  "cancelEdit": "",
   "editButton": "",
+  "enterLinkToAvatar": "",
+  "enterUsername": "",
+  "errorOnProfileLoading": "",
+  "saveEdit": "",
+  "tryRefreshPage": "",
   "userProfile": "",
+  "yourAge": "",
+  "yourCity": "",
   "yourName": "",
   "yourSurname": ""
 }
