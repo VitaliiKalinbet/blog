@@ -10,5 +10,10 @@
   "yourAge": "Вік",
   "yourCity": "Місто",
   "enterUsername": "Введіть логін",
-  "enterLinkToAvatar": "Введіть ссилку на аватар"
+  "enterLinkToAvatar": "Введіть ссилку на аватар",
+  "serverError": "Серверна помилка",
+  "incorrectAge": "Невірний вік",
+  "incorrectUserData": "Невірні данні юзера",
+  "incorrectCountry": "Невірна країна",
+  "noData": "Немає данних"
 }

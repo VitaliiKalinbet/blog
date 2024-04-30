@@ -10,5 +10,10 @@
   "yourAge": "Age",
   "yourCity": "City",
   "enterUsername": "Enter username",
-  "enterLinkToAvatar": "Enter link to avatar"
+  "enterLinkToAvatar": "Enter link to avatar",
+  "serverError": "Server error",
+  "incorrectAge": "Incorrect age",
+  "incorrectUserData": "Incorrect user data",
+  "incorrectCountry": "Incorrect country",
+  "noData": "No data"
 }
