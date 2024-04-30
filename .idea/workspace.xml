@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="39-40 fix typings, add profile, fix tests">
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileData/getProfileData.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileError/getProfileError.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileForm/getProfileForm.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileIsLoading/getProfileIsLoading.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileReadonly/getProfileReadonly.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileValidateErrors/getProfileValidateErrors.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileValidateErrors/getProfileValidateErrors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/validateProfileData/validateProfileData.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/validateProfileData/validateProfileData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="42-43 add tests for profile module, fix screens">
+      <change afterPath="$PROJECT_DIR$/src/app/styles/themes/green.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/types/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/types/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storybook/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/profile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/profile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/profile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/TestAsyncThunk/TestAsyncThunk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/TestAsyncThunk/TestAsyncThunk.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Avatar/Avatar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Avatar/Avatar.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Avatar/storybook.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/assets/tests/storybook.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,14 +112,7 @@
       <workItem from="1712659445298" duration="44681000" />
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
-      <workItem from="1713862252888" duration="62618000" />
-    </task>
-    <task id="LOCAL-00030" summary="change version of node to 17 in workflows">
-      <created>1712141775986</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1712141775986</updated>
+      <workItem from="1713862252888" duration="65416000" />
     </task>
     <task id="LOCAL-00031" summary="change env token">
       <created>1712152420857</created>
@@ -489,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713957822348</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="42-43 add tests for profile module, fix screens">
+      <created>1714481266913</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1714481266928</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added npmrc file" />
     <MESSAGE value="upggrade node version" />
     <MESSAGE value="delete .npmrc file, recreate package-lock.json" />
     <MESSAGE value="recreate package-lock.json" />
@@ -532,7 +499,8 @@
     <MESSAGE value="38 add and use apiUrl" />
     <MESSAGE value="38 add and use apiUrl, disable test loginByUsername.test.ts" />
     <MESSAGE value="39-40 fix typings, add profile, fix tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="39-40 fix typings, add profile, fix tests" />
+    <MESSAGE value="42-43 add tests for profile module, fix screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="42-43 add tests for profile module, fix screens" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
