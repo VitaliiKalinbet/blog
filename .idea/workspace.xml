@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="42-43 add tests for profile module, fix screens">
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tets/Tets.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tets/Tets.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tets/Tets.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/build/loaders/buildBabelLoader.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -123,7 +122,7 @@
       <workItem from="1712659445298" duration="44681000" />
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
-      <workItem from="1713862252888" duration="67186000" />
+      <workItem from="1713862252888" duration="68879000" />
     </task>
     <task id="LOCAL-00031" summary="change env token">
       <created>1712152420857</created>
