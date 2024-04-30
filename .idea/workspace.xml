@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="42-43 add tests for profile module, fix screens">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/themes/green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tets/Tets.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tets/Tets.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tets/Tets.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Create react component.tsx.child.1" />
+        <option value="Create react component.tsx.child.2" />
+        <option value="Create react component.tsx.child.1 (1)" />
+        <option value="Create react component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -45,7 +56,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -112,7 +123,7 @@
       <workItem from="1712659445298" duration="44681000" />
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
-      <workItem from="1713862252888" duration="65416000" />
+      <workItem from="1713862252888" duration="67186000" />
     </task>
     <task id="LOCAL-00031" summary="change env token">
       <created>1712152420857</created>
