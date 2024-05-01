@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="42-43 add tests for profile module, fix screens">
-      <change afterPath="$PROJECT_DIR$/src/app/providers/router/ui/RequireAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/selectors/getUserInited/getUserInited.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/PageLoader/PageLoader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/PageLoader/PageLoader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlePage.async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/article-20-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/calendar-20-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/copy-20-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/done-20-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/eye-20-20.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/model/item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/model/item.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +32,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Create react component.tsx.child.1" />
         <option value="Create react component.tsx.child.2" />
         <option value="Create react component.tsx.child.1 (1)" />
+        <option value="Create react component.tsx.child.0" />
+        <option value="Create react component.tsx.child.1" />
         <option value="Create react component" />
       </list>
     </option>
@@ -60,18 +71,18 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "fileTemplates",
     "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage" />
+      <recent name="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage" />
       <recent name="$PROJECT_DIR$/src/shared/assets/tests" />
       <recent name="$PROJECT_DIR$/src/entities/Currency/model/types" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
-      <recent name="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui" />
-      <recent name="$PROJECT_DIR$/src/shared/lib/classNames" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/entities/Country/model/types/country.ts" />
@@ -127,7 +138,7 @@
       <workItem from="1712659445298" duration="44681000" />
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
-      <workItem from="1713862252888" duration="71070000" />
+      <workItem from="1713862252888" duration="74178000" />
     </task>
     <task id="LOCAL-00031" summary="change env token">
       <created>1712152420857</created>
