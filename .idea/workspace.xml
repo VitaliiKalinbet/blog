@@ -2,27 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="42-43 add tests for profile module, fix screens">
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlePage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/article-20-20.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/calendar-20-20.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/copy-20-20.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/done-20-20.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/eye-20-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/model/selectors/articleDetails.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/model/selectors/articleDetails.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/model/services/fetchArticleById/fetchArticleById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/model/slice/articleDetailsSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/model/types/articleDetailsSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleCodeBlockComponent/ArticleCodeBlockComponent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleCodeBlockComponent/ArticleCodeBlockComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleImageBlockComponent/ArticleImageBlockComponent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleImageBlockComponent/ArticleImageBlockComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleTextBlockComponent/ArticleTextBlockComponent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleTextBlockComponent/ArticleTextBlockComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Code/Code.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Code/Code.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Code/Code.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Skeleton/Skeleton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Skeleton/Skeleton.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Skeleton/Skeleton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/model/item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/model/item.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/green.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/green.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +164,7 @@
       <workItem from="1712659445298" duration="44681000" />
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
-      <workItem from="1713862252888" duration="74178000" />
+      <workItem from="1713862252888" duration="85481000" />
     </task>
     <task id="LOCAL-00031" summary="change env token">
       <created>1712152420857</created>
