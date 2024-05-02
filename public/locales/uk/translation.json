@@ -28,5 +28,7 @@
   "articleNotFound": "Стаття не знайдена",
   "errorOnArticleDownload": "Помилка завантаження статті",
   "comments": "Коментарі",
-  "noComments": "Коментарі відсутні"
+  "noComments": "Коментарі відсутні",
+  "enterCommentsText": "Введіть текст коментаря",
+  "sendComment": "Відправити"
 }

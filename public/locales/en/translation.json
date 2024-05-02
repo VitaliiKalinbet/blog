@@ -28,5 +28,7 @@
   "articleNotFound": "Article not found",
   "errorOnArticleDownload": "Error on article download",
   "comments": "Comments",
-  "noComments": "No comments"
+  "noComments": "No comments",
+  "enterCommentsText": "Enter comments text",
+  "sendComment": "Send"
 }

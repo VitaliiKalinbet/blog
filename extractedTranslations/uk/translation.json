@@ -7,6 +7,7 @@
   "comments": "comments",
   "decrement": "decrement",
   "editButton": "editButton",
+  "enterCommentsText": "enterCommentsText",
   "enterLinkToAvatar": "enterLinkToAvatar",
   "enterUsername": "enterUsername",
   "errorOnArticleDownload": "errorOnArticleDownload",
@@ -32,6 +33,7 @@
   "profilePage": "profilePage",
   "refreshPage": "refreshPage",
   "saveEdit": "saveEdit",
+  "sendComment": "sendComment",
   "serverError": "serverError",
   "specifyCountry": "specifyCountry",
   "specifyCurrency": "specifyCurrency",
@@ -44,5 +46,6 @@
   "yourCity": "yourCity",
   "yourName": "yourName",
   "yourSurname": "yourSurname",
-  "Комментарии отсутствуют": "Комментарии отсутствуют"
+  "Комментарии отсутствуют": "Комментарии отсутствуют",
+  "Профиль": "Профиль"
 }

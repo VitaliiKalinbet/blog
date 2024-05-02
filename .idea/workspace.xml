@@ -1,34 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="50 add article entities and pages and components">
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/model/types/comment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/selectors/comments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/services/fetchCommentsByArticleId/fetchCommentsByArticleId.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/slices/articleDetailsCommentsSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/types/ArticleDetailsCommentsSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useInitialEffect/useInitialEffect.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="52 add comment form">
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/model/selectors/addCommentFormSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/model/slices/addCommentFormSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/model/types/addCommentForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/services/addCommentForArticle/addCommentForArticle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/profile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentCard/CommentCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +156,7 @@
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
       <workItem from="1713862252888" duration="87477000" />
-      <workItem from="1714640660565" duration="6598000" />
+      <workItem from="1714640660565" duration="14607000" />
     </task>
     <task id="LOCAL-00032" summary="change npmrc">
       <created>1712153329975</created>
@@ -508,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="delete .npmrc file, recreate package-lock.json" />
     <MESSAGE value="recreate package-lock.json" />
     <MESSAGE value="used node v18.14.2" />
     <MESSAGE value="28 upgrade SideBar, fix github workflow, improve Button" />
@@ -533,7 +543,8 @@
     <MESSAGE value="39-40 fix typings, add profile, fix tests" />
     <MESSAGE value="42-43 add tests for profile module, fix screens" />
     <MESSAGE value="50 add article entities and pages and components" />
-    <option name="LAST_COMMIT_MESSAGE" value="50 add article entities and pages and components" />
+    <MESSAGE value="52 add comment form" />
+    <option name="LAST_COMMIT_MESSAGE" value="52 add comment form" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

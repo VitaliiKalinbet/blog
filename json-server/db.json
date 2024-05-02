@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "kpdYQ4e"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "fsdfdfsdfsdf dsfs df",
+      "id": "dar9oCB"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "cool article",
+      "id": "ruA3hu1"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "best of the best article",
+      "id": "wbl_x6E"
     }
   ],
   "users": [
@@ -118,14 +144,28 @@
       "avatar": "https://img.freepik.com/premium-psd/3d-female-cartoon-character-avatar-isolated-3d-rendering_235528-985.jpg?w=1380"
     }
   ],
-  "profile": {
-    "first": "Vitalii",
-    "lastname": "Kalinbet",
-    "age": 31,
-    "currency": "USD",
-    "country": "Ukraine",
-    "city": "Kyiv",
-    "username": "admin",
-    "avatar": "https://as1.ftcdn.net/v2/jpg/01/88/77/70/1000_F_188777023_l0BzfxSZL3QfXa24dHX3SbxZUBOx0chb.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Vitalii",
+      "lastname": "Kalinbet",
+      "age": 31,
+      "currency": "USD",
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "username": "admin",
+      "avatar": "https://as1.ftcdn.net/v2/jpg/01/88/77/70/1000_F_188777023_l0BzfxSZL3QfXa24dHX3SbxZUBOx0chb.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Olga",
+      "lastname": "Khabinets",
+      "age": 28,
+      "currency": "UAH",
+      "country": "Ukraine",
+      "city": "Lviv",
+      "username": "user",
+      "avatar": "https://img.freepik.com/premium-psd/3d-female-cartoon-character-avatar-isolated-3d-rendering_235528-985.jpg?w=1380"
+    }
+  ]
 }
