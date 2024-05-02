@@ -4,6 +4,7 @@
   "articleNotFound": "articleNotFound",
   "authorizationForm": "Форма авторизації",
   "cancelEdit": "cancelEdit",
+  "comments": "comments",
   "decrement": "decrement",
   "editButton": "editButton",
   "enterLinkToAvatar": "enterLinkToAvatar",
@@ -24,6 +25,7 @@
   "main": "main",
   "mainPage": "mainPage",
   "mainPageLinkText": "Головна",
+  "noComments": "noComments",
   "noData": "noData",
   "pageNotFound": "pageNotFound",
   "passwordPlaceholder": "Введіть пароль",
@@ -41,5 +43,6 @@
   "yourAge": "yourAge",
   "yourCity": "yourCity",
   "yourName": "yourName",
-  "yourSurname": "yourSurname"
+  "yourSurname": "yourSurname",
+  "Комментарии отсутствуют": "Комментарии отсутствуют"
 }

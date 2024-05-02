@@ -26,5 +26,7 @@
   "specifyCurrency": "Виберіть валюту",
   "specifyCountry": "Виберіть країну",
   "articleNotFound": "Стаття не знайдена",
-  "errorOnArticleDownload": "errorOnArticleDownload"
+  "errorOnArticleDownload": "Помилка завантаження статті",
+  "comments": "Коментарі",
+  "noComments": "Коментарі відсутні"
 }

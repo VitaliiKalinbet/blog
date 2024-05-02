@@ -4,6 +4,7 @@
   "articleNotFound": "articleNotFound",
   "authorizationForm": "",
   "cancelEdit": "cancelEdit",
+  "comments": "comments",
   "decrement": "decrement",
   "editButton": "editButton",
   "enterLinkToAvatar": "enterLinkToAvatar",
@@ -24,6 +25,7 @@
   "main": "",
   "mainPage": "",
   "mainPageLinkText": "mainPageLinkText",
+  "noComments": "",
   "noData": "noData",
   "pageNotFound": "pageNotFound",
   "passwordPlaceholder": "",
@@ -43,5 +45,6 @@
   "yourName": "yourName",
   "yourSurname": "yourSurname",
   "Главная": "Главная",
+  "Комментарии отсутствуют": "",
   "О сайте": "О сайте"
 }

@@ -26,5 +26,7 @@
   "specifyCurrency": "Specify the currency",
   "specifyCountry": "Specify country",
   "articleNotFound": "Article not found",
-  "errorOnArticleDownload": "errorOnArticleDownload"
+  "errorOnArticleDownload": "Error on article download",
+  "comments": "Comments",
+  "noComments": "No comments"
 }
