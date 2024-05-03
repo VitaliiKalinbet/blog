@@ -2,35 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="54 add article list, article item, skeleton and stories">
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItemSkeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useHover/useHover.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Card/Card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Card/Card.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Card/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/selectors/articlesPageSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchArticlesList/fetchArticlesList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/types/articlesPageSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/list-24-24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/tiled-24-24.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/green.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/green.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Article/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.async.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlePage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlePage.async.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/model/selectors/getSideBarItems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/model/selectors/getSideBarItems.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/const/localStorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/const/localStorage.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +139,7 @@
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
       <workItem from="1713862252888" duration="87477000" />
-      <workItem from="1714640660565" duration="21516000" />
-    </task>
-    <task id="LOCAL-00034" summary="change main github workflow">
-      <created>1712154365082</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1712154365082</updated>
+      <workItem from="1714640660565" duration="26066000" />
     </task>
     <task id="LOCAL-00035" summary="change .npmrc">
       <created>1712154498114</created>
@@ -493,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714665710467</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="54 add article list, article item, skeleton and stories">
+      <created>1714733070993</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1714733071002</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
