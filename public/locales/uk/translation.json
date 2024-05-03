@@ -30,5 +30,7 @@
   "comments": "Коментарі",
   "noComments": "Коментарі відсутні",
   "enterCommentsText": "Введіть текст коментаря",
-  "sendComment": "Відправити"
+  "sendComment": "Відправити",
+  "readMore": "Читати далі...",
+  "backToArticleList": "Назад до списку статей"
 }

@@ -3,6 +3,7 @@
   "aboutPageLinkText": "Про сайт",
   "articleNotFound": "articleNotFound",
   "authorizationForm": "Форма авторизації",
+  "backToArticleList": "backToArticleList",
   "cancelEdit": "cancelEdit",
   "comments": "comments",
   "decrement": "decrement",
@@ -31,6 +32,7 @@
   "pageNotFound": "pageNotFound",
   "passwordPlaceholder": "Введіть пароль",
   "profilePage": "profilePage",
+  "readMore": "readMore",
   "refreshPage": "refreshPage",
   "saveEdit": "saveEdit",
   "sendComment": "sendComment",
@@ -47,5 +49,12 @@
   "yourName": "yourName",
   "yourSurname": "yourSurname",
   "Комментарии отсутствуют": "Комментарии отсутствуют",
-  "Профиль": "Профиль"
+  "Профиль": "Профиль",
+  "Читать далее": {
+    "": {
+      "": {
+        "": ""
+      }
+    }
+  }
 }

@@ -30,5 +30,7 @@
   "comments": "Comments",
   "noComments": "No comments",
   "enterCommentsText": "Enter comments text",
-  "sendComment": "Send"
+  "sendComment": "Send",
+  "readMore": "Read more...",
+  "backToArticleList": "Back to article list"
 }

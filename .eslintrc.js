@@ -51,6 +51,7 @@ module.exports = {
         'no-param-reassign': 'off',
         'react/prop-types': 'off', // maybe it's a bad idea, but I'm off it for now
         'no-undef': 'off',
+        'react/no-array-index-key': 'off', // it's just for course
     },
     globals: {
         __IS_DEV__: true,
