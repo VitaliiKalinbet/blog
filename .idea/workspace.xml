@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="56 add infinite scroll">
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/initArticlesPage/initArticlesPage.ts" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="57 fix store rerender, dynamic loader improve, update reducer manager">
+      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/model/selectors/scrollSave.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/model/slices/ScrollSaveSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/model/types/ScrollSaveSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useThrottle/useThrottle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/reducerManager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/reducerManager.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/ui/CommentList/CommentList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/selectors/articlesPageSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/selectors/articlesPageSelectors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/types/articlesPageSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/types/articlesPageSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/addCommentForm/model/selectors/addCommentFormSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addCommentForm/model/selectors/addCommentFormSelectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Page/Page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Page/Page.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +78,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/widgets" />
       <recent name="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage" />
       <recent name="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage" />
       <recent name="$PROJECT_DIR$/src/shared/assets/tests" />
       <recent name="$PROJECT_DIR$/src/entities/Currency/model/types" />
-      <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/widgets/SideBar/model/types/sideBar.ts" />
@@ -134,14 +140,8 @@
       <workItem from="1712933226075" duration="198000" />
       <workItem from="1712933519545" duration="15666000" />
       <workItem from="1713862252888" duration="87477000" />
-      <workItem from="1714640660565" duration="33136000" />
-    </task>
-    <task id="LOCAL-00037" summary="change workflow">
-      <created>1712156002856</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1712156002856</updated>
+      <workItem from="1714640660565" duration="35356000" />
+      <workItem from="1715092422352" duration="1132000" />
     </task>
     <task id="LOCAL-00038" summary="change main workflow">
       <created>1712222849485</created>
@@ -479,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715081979597</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="57 fix store rerender, dynamic loader improve, update reducer manager">
+      <created>1715088146976</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1715088146977</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="28 approved ui tests" />
     <MESSAGE value="29 add modal, portal, change header" />
     <MESSAGE value="29 change loki references" />
     <MESSAGE value="29 change command test:ui:ok" />
@@ -522,7 +528,8 @@
     <MESSAGE value="54 add article list, article item, skeleton and stories" />
     <MESSAGE value="55 add fetching articles, view switcher" />
     <MESSAGE value="56 add infinite scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="56 add infinite scroll" />
+    <MESSAGE value="57 fix store rerender, dynamic loader improve, update reducer manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="57 fix store rerender, dynamic loader improve, update reducer manager" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

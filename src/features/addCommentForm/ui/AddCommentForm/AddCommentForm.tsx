@@ -9,7 +9,6 @@ import { DynamicModuleLoader, ReducerList } from 'shared/lib/components/DynamicM
 import { addCommentFormActions, addCommentFormReducer } from '../../model/slices/addCommentFormSlice';
 import { getAddCommentFormError, getAddCommentFormText } from '../../model/selectors/addCommentFormSelectors';
 import cls from './AddCommentForm.module.scss';
-import value from '*.json';
 
 export interface AddCommentFormProps {
     className?: string;
