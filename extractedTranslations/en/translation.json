@@ -21,6 +21,7 @@
   "increment": "increment",
   "langEng": "",
   "langUkr": "",
+  "loadingArticlesError": "loadingArticlesError",
   "login": "",
   "loginBtn": "loginBtn",
   "logout": "",

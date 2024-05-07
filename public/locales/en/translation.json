@@ -32,5 +32,6 @@
   "enterCommentsText": "Enter comments text",
   "sendComment": "Send",
   "readMore": "Read more...",
-  "backToArticleList": "Back to article list"
+  "backToArticleList": "Back to article list",
+  "loadingArticlesError": "loadingArticlesError"
 }

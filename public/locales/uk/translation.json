@@ -32,5 +32,6 @@
   "enterCommentsText": "Введіть текст коментаря",
   "sendComment": "Відправити",
   "readMore": "Читати далі...",
-  "backToArticleList": "Назад до списку статей"
+  "backToArticleList": "Назад до списку статей",
+  "loadingArticlesError": "loadingArticlesError"
 }
