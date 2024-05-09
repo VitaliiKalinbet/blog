@@ -33,5 +33,17 @@
   "sendComment": "Send",
   "readMore": "Read more...",
   "backToArticleList": "Back to article list",
-  "loadingArticlesError": "loadingArticlesError"
+  "loadingArticlesError": "loadingArticlesError",
+  "sortBy": "Sort by",
+  "textSearch": "Search article",
+  "rising": "Rising",
+  "decreasing": "Decreasing",
+  "sortByCreateDate": "create date",
+  "sortByName": "name",
+  "sortByViews": "views",
+  "allTab": "All articles",
+  "itTab": "IT",
+  "economicsTab": "Economics",
+  "scienceTab": "Science",
+  "articlesNotFound": "Articles not found"
 }

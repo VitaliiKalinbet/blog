@@ -1,28 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="57 fix store rerender, dynamic loader improve, update reducer manager">
-      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/model/selectors/scrollSave.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/model/slices/ScrollSaveSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ScrollSave/model/types/ScrollSaveSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useThrottle/useThrottle.ts" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="59 add filters, sort, search">
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleSortSelector/ArticleSortSelector.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleSortSelector/ArticleSortSelector.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleSortSelector/ArticleSortSelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticleTypeTabs/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticleTypeTabs/ui/ArticleTypeTabs.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/ArticleTypeTabs/ui/ArticleTypeTabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useDebounce/useDebounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/url/addQueryParams.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/url/addQueryParams.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tabs/Tabs.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tabs/Tabs.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Tabs/Tabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/addCommentForm/model/selectors/addCommentFormSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addCommentForm/model/selectors/addCommentFormSelectors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addCommentForm/ui/AddCommentForm/AddCommentForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ArticlesViewSwitcher/ui/ArticlesViewSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/selectors/articlesPageSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/selectors/articlesPageSelectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchArticlesList/fetchArticlesList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchArticlesList/fetchArticlesList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/initArticlesPage/initArticlesPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/services/initArticlesPage/initArticlesPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/types/articlesPageSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/types/articlesPageSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Page/Page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Page/Page.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Card/Card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Select/Select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Page/Page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,14 +164,8 @@
       <workItem from="1712933519545" duration="15666000" />
       <workItem from="1713862252888" duration="87477000" />
       <workItem from="1714640660565" duration="35356000" />
-      <workItem from="1715092422352" duration="1132000" />
-    </task>
-    <task id="LOCAL-00038" summary="change main workflow">
-      <created>1712222849485</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1712222849485</updated>
+      <workItem from="1715092422352" duration="11069000" />
+      <workItem from="1715245634744" duration="6679000" />
     </task>
     <task id="LOCAL-00039" summary="change main workflow 2">
       <created>1712225232769</created>
@@ -486,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715088146977</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="58 add scroll save feature">
+      <created>1715094057615</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1715094057616</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,8 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="29 add modal, portal, change header" />
-    <MESSAGE value="29 change loki references" />
     <MESSAGE value="29 change command test:ui:ok" />
     <MESSAGE value="30 add redux toolkit, counter" />
     <MESSAGE value="31 fix styles for modal" />
@@ -529,7 +551,9 @@
     <MESSAGE value="55 add fetching articles, view switcher" />
     <MESSAGE value="56 add infinite scroll" />
     <MESSAGE value="57 fix store rerender, dynamic loader improve, update reducer manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="57 fix store rerender, dynamic loader improve, update reducer manager" />
+    <MESSAGE value="58 add scroll save feature" />
+    <MESSAGE value="59 add filters, sort, search" />
+    <option name="LAST_COMMIT_MESSAGE" value="59 add filters, sort, search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

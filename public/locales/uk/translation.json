@@ -33,5 +33,17 @@
   "sendComment": "Відправити",
   "readMore": "Читати далі...",
   "backToArticleList": "Назад до списку статей",
-  "loadingArticlesError": "loadingArticlesError"
+  "loadingArticlesError": "loadingArticlesError",
+  "sortBy": "Сортирувати по",
+  "textSearch": "Шукати статтю",
+  "rising": "За зростанням",
+  "decreasing": "За спаданням",
+  "sortByCreateDate": "дата створення",
+  "sortByName": "назва",
+  "sortByViews": "перегляди",
+  "allTab": "Усі статті",
+  "itTab": "IT",
+  "economicsTab": "Економіка",
+  "scienceTab": "Наука",
+  "articlesNotFound": "Статті не знайдені"
 }

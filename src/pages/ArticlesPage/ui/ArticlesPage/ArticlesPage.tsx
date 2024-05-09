@@ -9,6 +9,8 @@ import { ArticlesViewSwitcher } from 'features/ArticlesViewSwitcher';
 import { Page } from 'widgets/Page/Page';
 import { fetchNextArticlesPage } from 'pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage';
 import { Text } from 'shared/ui/Text/Text';
+import { ArticlesPageFilters } from 'pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters';
+import { useSearchParams } from 'react-router-dom';
 import { initArticlesPage } from '../../model/services/initArticlesPage/initArticlesPage';
 import {
     getArticlesPageError,
@@ -35,17 +37,14 @@ const ArticlesPage = (props: ArticlesPageProps) => {
     const isLoading = useSelector(getArticlesPageIsLoading);
     const error = useSelector(getArticlesPageError);
     const view = useSelector(getArticlesPageView);
-
-    const onChangeView = useCallback((view: ArticleView) => {
-        dispatch(articlesPageActions.setView(view));
-    }, [dispatch]);
+    const [searchParams] = useSearchParams();
 
     const onLoadNextPart = useCallback(() => {
         dispatch(fetchNextArticlesPage());
     }, [dispatch]);
 
     useInitialEffect(() => {
-        dispatch(initArticlesPage());
+        dispatch(initArticlesPage(searchParams));
     });
 
     return (
@@ -57,15 +56,13 @@ const ArticlesPage = (props: ArticlesPageProps) => {
                 onScrollEnd={onLoadNextPart}
                 className={classNames(cls.ArticlesPage, {}, [className])}
             >
-                <ArticlesViewSwitcher
-                    view={view}
-                    onViewClick={onChangeView}
-                />
+                <ArticlesPageFilters />
                 {error && <Text text={t('loadingArticlesError')} />}
                 <ArticleList
                     articles={articles}
                     view={view}
                     isLoading={isLoading}
+                    className={cls.list}
                 />
             </Page>
         </DynamicModuleLoader>
