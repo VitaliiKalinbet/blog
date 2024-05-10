@@ -39,6 +39,7 @@
   "passwordPlaceholder": "",
   "profilePage": "profilePage",
   "readMore": "",
+  "recommends": "",
   "refreshPage": "refreshPage",
   "rising": "rising",
   "saveEdit": "saveEdit",
@@ -65,6 +66,7 @@
   "Комментарии отсутствуют": "",
   "О сайте": "О сайте",
   "Профиль": "Профиль",
+  "Рекомендуем": "",
   "Читать далее": {
     "": {
       "": {

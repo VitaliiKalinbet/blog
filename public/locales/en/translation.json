@@ -45,5 +45,6 @@
   "itTab": "IT",
   "economicsTab": "Economics",
   "scienceTab": "Science",
-  "articlesNotFound": "Articles not found"
+  "articlesNotFound": "Articles not found",
+  "recommends": "Recommends"
 }

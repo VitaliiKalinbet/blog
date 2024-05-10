@@ -3,7 +3,7 @@ import { Story } from '@storybook/react';
 import { StateSchema, StoreProvider } from 'app/providers/StoreProvider';
 import { loginReducer } from 'features/AuthByUsername/model/slice/loginSlice';
 import { ReducerList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
-import { articleDetailsCommentsReducer } from 'pages/ArticleDetailsPage/model/slices/articleDetailsCommentsSlice';
+import { articleDetailsPageReducer } from '../../../../pages/ArticleDetailsPage/model/slices';
 import { articlesPageReducer } from '../../../../pages/ArticlesPage/model/slices/articlesPageSlice';
 import { profileReducer } from '../../../../entities/Profile';
 import { articleDetailsReducer } from '../../../../entities/Article/model/slice/articleDetailsSlice';
@@ -14,8 +14,8 @@ const defaultAsyncReducers: ReducerList = {
     profile: profileReducer,
     articleDetails: articleDetailsReducer,
     addCommentForm: addCommentFormReducer,
-    articleDetailsComments: articleDetailsCommentsReducer,
     articlesPage: articlesPageReducer,
+    articleDetailsPage: articleDetailsPageReducer,
 };
 
 export const StoreDecorator = (
