@@ -46,5 +46,8 @@
   "economicsTab": "Economics",
   "scienceTab": "Science",
   "articlesNotFound": "Articles not found",
-  "recommends": "Recommends"
+  "recommends": "Recommends",
+  "editArticle": "Edit article",
+  "createArticle": "Create article",
+  "Articles blog app": "Articles blog app"
 }

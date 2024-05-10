@@ -46,5 +46,8 @@
   "economicsTab": "Економіка",
   "scienceTab": "Наука",
   "articlesNotFound": "Статті не знайдені",
-  "recommends": "Рекомендуємо"
+  "recommends": "Рекомендуємо",
+  "editArticle": "Редагувати статтю",
+  "createArticle": "Створити статтю",
+  "Articles blog app": "Articles blog app"
 }
