@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "https://blog-backend-oitprm1e0-vitaliikalinbets-projects.vercel.app"
   status = 200
 [[headers]]
   for = "/*"
