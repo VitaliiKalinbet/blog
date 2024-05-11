@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="61 add create page, edit page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/api/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1714640660565" duration="35356000" />
       <workItem from="1715092422352" duration="11069000" />
       <workItem from="1715245634744" duration="17358000" />
-      <workItem from="1715351270974" duration="3638000" />
+      <workItem from="1715351270974" duration="3892000" />
     </task>
     <task id="LOCAL-00042" summary="change main workflow 5">
       <created>1712303999103</created>
