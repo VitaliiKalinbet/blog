@@ -22,6 +22,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'ulbi-tv-plugin',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -52,6 +53,7 @@ module.exports = {
         'react/prop-types': 'off', // maybe it's a bad idea, but I'm off it for now
         'no-undef': 'off',
         'react/no-array-index-key': 'off', // it's just for course
+        'ulbi-tv-plugin/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,
