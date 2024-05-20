@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="64 add custom eslint plugin for imports">
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Stack/Flex/Flex.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Stack/Flex/Flex.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Stack/Flex/Flex.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Stack/HStack/HStack.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Stack/VStack/VStack.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Stack/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/selectors/article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/selectors/article.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Stack/Flex/Flex.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Stack/Flex/Flex.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Page/Page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBarItem/SideBarItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBarItem/SideBarItem.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +137,7 @@
       <workItem from="1715680014411" duration="643000" />
       <workItem from="1715680737220" duration="3580000" />
       <workItem from="1715686070696" duration="1274000" />
-      <workItem from="1716209310133" duration="2024000" />
+      <workItem from="1716209310133" duration="3255000" />
     </task>
     <task id="LOCAL-00042" summary="change main workflow 5">
       <created>1712303999103</created>
