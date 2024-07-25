@@ -1,21 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="64 add custom eslint plugin for imports">
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/firstCharUpperCase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/resolveRoot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/componentTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/createModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/createPublicApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/createTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/createUI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/reduxSliceTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/schemaTypeTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/storyTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/createSlice/templates/styleTemplate.js" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="70 add rtk query api, inject article recommendations api, big refactoring">
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleListItem_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleListItem_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleList_List_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleList_List_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleList_Loading_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleList_Loading_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Article_ArticleSortSelector_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Comment_CommentList_Loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Comment_CommentList_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_AddCommentForm_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_Article_ArticleTypeTabs_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_Article_ArticlesViewSwitcher_Big_Switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_features_Article_ArticlesViewSwitcher_Small_Switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Card_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_CommentCard_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Dropdown_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Column.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Column_Align_End.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Column_Gap_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Row.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Row_Gap_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Row_Gap_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Flex_Row_Gap_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ListBox_Bottom_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ListBox_Bottom_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ListBox_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ListBox_Top_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ListBox_Top_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Tabs_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Text_Size_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Text_Size_S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleListItem_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleListItem_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleList_List_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleList_List_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleList_Loading_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleList_Loading_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Article_ArticleSortSelector_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Comment_CommentList_Loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Comment_CommentList_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_AddCommentForm_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_Article_ArticleTypeTabs_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_Article_ArticlesViewSwitcher_Big_Switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_features_Article_ArticlesViewSwitcher_Small_Switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Card_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_CommentCard_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Dropdown_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Column.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Column_Align_End.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Column_Gap_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Row.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Row_Gap_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Row_Gap_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Flex_Row_Gap_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ListBox_Bottom_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ListBox_Bottom_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ListBox_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ListBox_Top_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ListBox_Top_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Tabs_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Size_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Text_Size_S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/articleRecommendationsList/api/articleRecommendationsApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/articleRecommendationsList/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/articleRecommendationsList/ui/ArticleRecommendationsList/ArticleRecommendationsList.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/articleRecommendationsList/ui/ArticleRecommendationsList/ArticleRecommendationsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/types/editableProfileCardSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsComments/ArticleDetailsComments.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsComments/ArticleDetailsComments.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesInfiniteList/ArticlesInfiniteList.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesInfiniteList/ArticlesInfiniteList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/rtkApi.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_CountrySelect_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_CountrySelect_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_CurrencySelect_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_CurrencySelect_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ProfileCard_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ProfileCard_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ArticleDetailsPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ArticleDetailsPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Primary_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Primary_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Secondary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Secondary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Secondary_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Secondary_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Auth_Navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Auth_Navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_NavBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_No_Auth.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_widgets_SideBar_No_Auth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_CountrySelect_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_CountrySelect_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_CurrencySelect_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_CurrencySelect_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ProfileCard_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ProfileCard_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ArticleDetailsPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ArticleDetailsPage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Primary_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Primary_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Secondary.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Secondary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Secondary_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Secondary_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Auth_Navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Auth_Navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_NavBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_Light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_No_Auth.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_widgets_SideBar_No_Auth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileData/getProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileData/getProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileData/getProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileData/getProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileError/getProfileError.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileError/getProfileError.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileError/getProfileError.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileError/getProfileError.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileForm/getProfileForm.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileForm/getProfileForm.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileForm/getProfileForm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileForm/getProfileForm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileIsLoading/getProfileIsLoading.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileIsLoading/getProfileIsLoading.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileIsLoading/getProfileIsLoading.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileIsLoading/getProfileIsLoading.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileReadonly/getProfileReadonly.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileReadonly/getProfileReadonly.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileReadonly/getProfileReadonly.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileReadonly/getProfileReadonly.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileValidateErrors/getProfileValidateErrors.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileValidateErrors/getProfileValidateErrors.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileValidateErrors/getProfileValidateErrors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileValidateErrors/getProfileValidateErrors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/fetchProfileData/fetchProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/fetchProfileData/fetchProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/updateProfileData/updateProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/updateProfileData/updateProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/updateProfileData/updateProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/validateProfileData/validateProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/validateProfileData/validateProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/services/validateProfileData/validateProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/validateProfileData/validateProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/slice/profileSlice.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/slice/profileSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleEditPage/ui/ArticleEditPage/ArticleEditPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleEditPage/ui/ArticleEditPage/ArticleEditPage.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage/ArticlesPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePageHeader/ProfilePageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Dropdown/Dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Dropdown/Dropdown.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,40 +178,46 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2Z7VFuTIHVznq9qOJ8cDPHCxAB2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bosssvit/Ulbi course/blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/stylelint&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "/Users/bosssvit/Ulbi course/blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "/Users/bosssvit/Ulbi course/blog/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/features/editableProfileCard/ui" />
+      <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model" />
       <recent name="$PROJECT_DIR$/src/shared/" />
       <recent name="$PROJECT_DIR$/src/pages/ArticleEditPage/ui/ArticleEditPage" />
       <recent name="$PROJECT_DIR$/src/widgets" />
-      <recent name="$PROJECT_DIR$/src/pages/ArticlesPage/ui/ArticlesPage" />
-      <recent name="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model/types/editableProfileCardSchema.ts" />
+      <recent name="$PROJECT_DIR$/src/features/articleRecommendationsList/api/articleRecommendationsApi.ts" />
       <recent name="$PROJECT_DIR$/src/widgets/SideBar/model/types/sideBar.ts" />
       <recent name="$PROJECT_DIR$/src/entities/Country/model/types/country.ts" />
       <recent name="$PROJECT_DIR$/src/entities/Currency/model/types.ts" />
@@ -142,7 +281,10 @@
       <workItem from="1715680014411" duration="643000" />
       <workItem from="1715680737220" duration="3580000" />
       <workItem from="1715686070696" duration="1274000" />
-      <workItem from="1716209310133" duration="10164000" />
+      <workItem from="1716209310133" duration="17558000" />
+      <workItem from="1717003053382" duration="512000" />
+      <workItem from="1717093195342" duration="348000" />
+      <workItem from="1720691412443" duration="10607000" />
     </task>
     <task id="LOCAL-00042" summary="change main workflow 5">
       <created>1712303999103</created>
@@ -505,7 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="31 fix styles for modal" />
     <MESSAGE value="31.1 add json server, approve ui tests" />
     <MESSAGE value="32 add auth form and modal" />
     <MESSAGE value="33 add husky pre-commit" />
@@ -530,7 +671,8 @@
     <MESSAGE value="59 add filters, sort, search" />
     <MESSAGE value="60 add recommendations for article" />
     <MESSAGE value="61 add create page, edit page" />
-    <option name="LAST_COMMIT_MESSAGE" value="61 add create page, edit page" />
+    <MESSAGE value="70 add rtk query api, inject article recommendations api, big refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="70 add rtk query api, inject article recommendations api, big refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
