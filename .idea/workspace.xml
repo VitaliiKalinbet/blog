@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="71 add html reports for unit tests">
-      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.test.tsx" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="72 add profile card tests">
+      <change afterPath="$PROJECT_DIR$/src/entities/User/model/selectors/roleSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AdminPanelPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AdminPanelPage/ui/AdminPanelPage.async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AdminPanelPage/ui/AdminPanelPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ForbiddenPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ForbiddenPage/ui/ForbiddenPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/uk/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/hooks/useInitialEffect/useInitialEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useInitialEffect/useInitialEffect.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/componentRender/componentRender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/componentRender/componentRender.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/uk/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/uk/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/RequireAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/RequireAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/User/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +163,7 @@
       <workItem from="1717093195342" duration="348000" />
       <workItem from="1720691412443" duration="22937000" />
       <workItem from="1722152339323" duration="963000" />
-      <workItem from="1722153316393" duration="2317000" />
-    </task>
-    <task id="LOCAL-00044" summary="change main workflow 7">
-      <created>1712307000606</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1712307000607</updated>
+      <workItem from="1722153316393" duration="6450000" />
     </task>
     <task id="LOCAL-00045" summary="use npm token">
       <created>1712307422286</created>
@@ -499,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721986502150</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="72 add profile card tests">
+      <created>1722156402675</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1722156402676</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="32 add auth form and modal" />
     <MESSAGE value="33 add husky pre-commit" />
     <MESSAGE value="fix translations files" />
     <MESSAGE value="34 authorization, User entities" />
@@ -542,7 +550,8 @@
     <MESSAGE value="61 add create page, edit page" />
     <MESSAGE value="70 add rtk query api, inject article recommendations api, big refactoring" />
     <MESSAGE value="71 add html reports for unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="71 add html reports for unit tests" />
+    <MESSAGE value="72 add profile card tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="72 add profile card tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

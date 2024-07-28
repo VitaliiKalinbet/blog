@@ -584,15 +584,22 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN",
+      "roles": ["ADMIN"],
       "avatar": "https://img.freepik.com/premium-psd/3d-waiter-cartoon-character-avatar-isolated-3d-rendering_235528-1016.jpg?w=1380"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER",
+      "roles": ["USER"],
       "avatar": "https://img.freepik.com/premium-psd/3d-female-cartoon-character-avatar-isolated-3d-rendering_235528-985.jpg?w=1380"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": ["MANAGER"],
+      "avatar": "https://img.freepik.com/free-photo/beautiful-business-woman-with-dark-short-hair-white-shirt-holding-black-folder-hands-while-joyfully-looking-camera-blue-background_574295-3492.jpg?t=st=1722157102~exp=1722160702~hmac=4aa7bd0da5975dd5369a2c82585b834bff30b31ab4bd1a229c09b22c737dbeaa&w=2000"
     }
   ],
   "profile": [

@@ -9,7 +9,9 @@ import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import { Dropdown } from 'shared/ui/Dropdown/Dropdown';
 import { Avatar } from 'shared/ui/Avatar/Avatar';
-import { getUserAuthData, userActions } from '../../../entities/User/index';
+import {
+    getUserAuthData, isUserAdmin, isUserManager, userActions,
+} from '../../../entities/User/index';
 import cls from './NavBar.module.scss';
 
 interface NavBarProps {
@@ -21,6 +23,9 @@ export const NavBar = memo(({ className }: NavBarProps) => {
     const [isAuthModal, setIsAuthModal] = useState(false);
     const authData = useSelector(getUserAuthData);
     const dispatch = useDispatch();
+    const isAdmin = useSelector(isUserAdmin);
+    const isManager = useSelector(isUserManager);
+    const isAdminPanelAvailable = isAdmin || isManager;
 
     const onCloseModal = useCallback(() => {
         setIsAuthModal(false);
@@ -53,6 +58,10 @@ export const NavBar = memo(({ className }: NavBarProps) => {
                     direction="bottom left"
                     className={cls.dropdown}
                     items={[
+                        ...(isAdminPanelAvailable ? [{
+                            content: t('adminPanel'),
+                            href: RoutePath.admin_panel,
+                        }] : []),
                         {
                             content: t('userProfile'),
                             href: RoutePath.profile + authData.id,
