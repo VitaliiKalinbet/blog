@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="70 add rtk query api, inject article recommendations api, big refactoring">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="71 add html reports for unit tests">
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/hooks/useInitialEffect/useInitialEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useInitialEffect/useInitialEffect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/componentRender/componentRender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/componentRender/componentRender.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/bosssvit/Ulbi course/blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.selected.package.eslint": "/Users/bosssvit/Ulbi course/blog/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bosssvit/Ulbi course/blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/stylelint&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/features/editableProfileCard/ui" />
@@ -82,8 +87,11 @@
       <recent name="$PROJECT_DIR$/src/entities/Currency/model/types.ts" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.report.html">
+  <component name="RunManager" selected="JavaScript Debug.report.html (1)">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/build/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="report.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/reports/unit/report.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/.loki/report.html" useBuiltInWebServerPort="true">
@@ -104,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.report.html (1)" />
         <item itemvalue="JavaScript Debug.report.html" />
         <item itemvalue="npm.build:dev" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -143,14 +152,9 @@
       <workItem from="1716209310133" duration="17558000" />
       <workItem from="1717003053382" duration="512000" />
       <workItem from="1717093195342" duration="348000" />
-      <workItem from="1720691412443" duration="12184000" />
-    </task>
-    <task id="LOCAL-00043" summary="change main workflow 6">
-      <created>1712306524874</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1712306524877</updated>
+      <workItem from="1720691412443" duration="22937000" />
+      <workItem from="1722152339323" duration="963000" />
+      <workItem from="1722153316393" duration="2317000" />
     </task>
     <task id="LOCAL-00044" summary="change main workflow 7">
       <created>1712307000606</created>
@@ -488,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721923152452</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="71 add html reports for unit tests">
+      <created>1721986502149</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1721986502150</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="31.1 add json server, approve ui tests" />
     <MESSAGE value="32 add auth form and modal" />
     <MESSAGE value="33 add husky pre-commit" />
     <MESSAGE value="fix translations files" />
@@ -531,7 +541,8 @@
     <MESSAGE value="60 add recommendations for article" />
     <MESSAGE value="61 add create page, edit page" />
     <MESSAGE value="70 add rtk query api, inject article recommendations api, big refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="70 add rtk query api, inject article recommendations api, big refactoring" />
+    <MESSAGE value="71 add html reports for unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="71 add html reports for unit tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

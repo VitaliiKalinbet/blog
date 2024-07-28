@@ -571,6 +571,12 @@
       "userId": "1",
       "text": "python the best",
       "id": "8HCCF0W"
+    },
+    {
+      "articleId": "8",
+      "userId": "1",
+      "text": "typescript is awesome",
+      "id": "AkyHxxO"
     }
   ],
   "users": [
@@ -592,7 +598,7 @@
   "profile": [
     {
       "id": "1",
-      "first": "Vitalii1",
+      "first": "Vitalii123",
       "lastname": "Kalinbet",
       "age": 31,
       "currency": "USD",
