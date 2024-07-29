@@ -1,0 +1,19 @@
+{
+  "cancelEdit": "cancelEdit",
+  "editButton": "editButton",
+  "enterLinkToAvatar": "enterLinkToAvatar",
+  "enterUsername": "enterUsername",
+  "errorOnProfileLoading": "errorOnProfileLoading",
+  "incorrectAge": "incorrectAge",
+  "incorrectCountry": "incorrectCountry",
+  "incorrectUserData": "incorrectUserData",
+  "noData": "noData",
+  "saveEdit": "saveEdit",
+  "serverError": "serverError",
+  "tryRefreshPage": "tryRefreshPage",
+  "userProfile": "userProfile",
+  "yourAge": "yourAge",
+  "yourCity": "yourCity",
+  "yourName": "yourName",
+  "yourSurname": "yourSurname"
+}
