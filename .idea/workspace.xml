@@ -1,51 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="74 fix style problems">
-      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/SuspenseDecorator/SuspenseDecorator.tsx" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="76 add isolated ts modules option and fix all errors">
+      <change afterPath="$PROJECT_DIR$/src/entities/User/model/consts/userConsts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/consts/consts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ArticleDetails_Error.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ArticleDetails_Error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ArticleDetails_Loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ArticleDetails_Loading.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ArticleDetails_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_ArticleDetails_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Comment_CommentList_Loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Comment_CommentList_Loading.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Comment_CommentList_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_entities_Comment_CommentList_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_ProfilePage_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ArticleDetails_Error.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ArticleDetails_Error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ArticleDetails_Loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ArticleDetails_Loading.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ArticleDetails_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_ArticleDetails_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Comment_CommentList_Loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Comment_CommentList_Loading.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Comment_CommentList_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_entities_Comment_CommentList_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_ProfilePage_Normal.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storybook/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Article/model/services/fetchArticleById/fetchArticleById.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/model/services/fetchArticleById/fetchArticleById.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/model/types/article.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleDetails/ArticleDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/articleRecommendationsList/ui/ArticleRecommendationsList/ArticleRecommendationsList.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/articleRecommendationsList/ui/ArticleRecommendationsList/ArticleRecommendationsList.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleList/ArticleList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItemSkeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleListItem/ArticleListItemSkeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Article/ui/ArticleSortSelector/ArticleSortSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/ui/ArticleSortSelector/ArticleSortSelector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Comment/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Comment/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/User/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/User/model/selectors/roleSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/selectors/roleSelectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/ScrollSave/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ScrollSave/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/addCommentForm/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addCommentForm/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileValidateErrors/getProfileValidateErrors.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/selectors/getProfileValidateErrors/getProfileValidateErrors.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/updateProfileData/updateProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/updateProfileData/updateProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/validateProfileData/validateProfileData.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/validateProfileData/validateProfileData.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/validateProfileData/validateProfileData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/services/validateProfileData/validateProfileData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/slice/profileSlice.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/slice/profileSlice.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/slice/profileSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/slice/profileSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/model/types/editableProfileCardSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/model/types/editableProfileCardSchema.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCard/EditableProfileCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/editableProfileCard/ui/EditableProfileCardHeader/EditableProfileCardHeader.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/services/fetchCommentsByArticleId/fetchCommentsByArticleId.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/model/services/fetchCommentsByArticleId/fetchCommentsByArticleId.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsComments/ArticleDetailsComments.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsComments/ArticleDetailsComments.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsComments/ArticleDetailsComments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsComments/ArticleDetailsComments.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/RouterDecorator/RouterDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/RouterDecorator/RouterDecorator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesPage/model/slices/articlesPageSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Input/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Article/model/consts/articleConsts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageLoader/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageLoader/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +110,11 @@
       <recent name="$PROJECT_DIR$/src/widgets" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/entities/Article/model/consts/articleConsts.ts" />
+      <recent name="$PROJECT_DIR$/src/entities/User/model/consts/userConsts.ts" />
+      <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model/consts/consts.ts" />
       <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model/types/editableProfileCardSchema.ts" />
       <recent name="$PROJECT_DIR$/src/features/articleRecommendationsList/api/articleRecommendationsApi.ts" />
-      <recent name="$PROJECT_DIR$/src/widgets/SideBar/model/types/sideBar.ts" />
-      <recent name="$PROJECT_DIR$/src/entities/Country/model/types/country.ts" />
-      <recent name="$PROJECT_DIR$/src/entities/Currency/model/types.ts" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.report.html (1)">
@@ -187,14 +184,7 @@
       <workItem from="1717093195342" duration="348000" />
       <workItem from="1720691412443" duration="22937000" />
       <workItem from="1722152339323" duration="963000" />
-      <workItem from="1722153316393" duration="13964000" />
-    </task>
-    <task id="LOCAL-00047" summary="change main workflow">
-      <created>1712309047269</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1712309047269</updated>
+      <workItem from="1722153316393" duration="18077000" />
     </task>
     <task id="LOCAL-00048" summary="change github workflows and use node 17 and npm token">
       <created>1712309179061</created>
@@ -532,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722165200691</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="75 migrate to react 18, add mock for storybook">
+      <created>1722257551684</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1722257551684</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,8 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="34 authorization, User entities" />
-    <MESSAGE value="34 new screens" />
     <MESSAGE value="35 add lazy loading LoginModal, add async reducer and reducerManager" />
     <MESSAGE value="36 add tests for login feature" />
     <MESSAGE value="37 add profile page and entities, optimize components with memo" />
@@ -575,7 +570,9 @@
     <MESSAGE value="72 add profile card tests" />
     <MESSAGE value="73 add private route with required roles" />
     <MESSAGE value="74 fix style problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="74 fix style problems" />
+    <MESSAGE value="75 migrate to react 18, add mock for storybook" />
+    <MESSAGE value="76 add isolated ts modules option and fix all errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="76 add isolated ts modules option and fix all errors" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

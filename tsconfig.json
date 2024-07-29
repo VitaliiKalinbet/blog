@@ -34,6 +34,8 @@
     // можна писати такий
     // import React from 'react';
     "allowSyntheticDefaultImports": true,
+    // якщо додати цю властивість і в true то будуть прямо валитися помилки якщо при експорті не вказувати що це type
+    "isolatedModules": true,
   },
   "ts-node": {
     "compilerOptions": {
