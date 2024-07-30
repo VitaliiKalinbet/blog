@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="80 add drawer, add device detector">
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Drawer/Drawer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Drawer/Drawer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Overlay/Overlay.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Overlay/Overlay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/hooks/useModal/useModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/notificationButton/ui/NotificationButton/NotificationButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/notificationButton/ui/NotificationButton/NotificationButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Drawer/Drawer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Drawer/Drawer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Drawer/Drawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Drawer/Drawer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +153,7 @@
       <workItem from="1722152339323" duration="963000" />
       <workItem from="1722153316393" duration="18709000" />
       <workItem from="1722262916676" duration="11178000" />
-      <workItem from="1722344178149" duration="3970000" />
-    </task>
-    <task id="LOCAL-00052" summary="change main.yml to initial">
-      <created>1712327094414</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1712327094415</updated>
+      <workItem from="1722344178149" duration="5000000" />
     </task>
     <task id="LOCAL-00053" summary="change main.yml to initial and branches on main">
       <created>1712327145789</created>
@@ -506,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722351029931</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="80 add drawer, add device detector">
+      <created>1722356018835</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1722356018835</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
