@@ -12,14 +12,15 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
     };
 
     // Якщо не використовуємо typescript то потрібен би був babel-loader
-    // const typescriptLoader = {
-    //     test: /\.tsx?$/,
-    //     use: 'ts-loader',
-    //     exclude: /node_modules/,
-    // };
+    const typescriptLoader = {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+    };
+    const babelLoader = buildBabelLoader(options);
 
-    const codeBabelLoader = buildBabelLoader({ ...options, isTsx: false });
-    const tsxBabelLoader = buildBabelLoader({ ...options, isTsx: true });
+    // const codeBabelLoader = buildBabelLoader({ ...options, isTsx: false });
+    // const tsxBabelLoader = buildBabelLoader({ ...options, isTsx: true });
 
     const cssLoader = buildCssLoader(isDev);
 
@@ -37,9 +38,10 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
     return [
         fileLoader,
         svgLoader,
-        codeBabelLoader,
-        tsxBabelLoader,
-        // typescriptLoader,
+        // codeBabelLoader,
+        // tsxBabelLoader,
+        babelLoader,
+        typescriptLoader,
         cssLoader,
     ];
 }

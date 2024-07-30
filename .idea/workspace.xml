@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="77 add circular dependency plugin">
-      <change afterPath="$PROJECT_DIR$/config/babel/babelRemovePropsPlugin.ts" afterDir="false" />
+    <list default="true" id="034b990f-2781-4330-8eee-e150ee1f411d" name="Default Changelist" comment="79 add popover, add notifications">
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/api/notificationApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/model/types/notifications.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/NotificationItem/NotificationItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/NotificationItem/NotificationItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/NotificationItem/NotificationItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/NotificationList/NotificationList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/NotificationList/NotificationList.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/NotificationList/NotificationList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/avatarDropdown/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/avatarDropdown/ui/AvatarDropdown/AvatarDropdown.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/avatarDropdown/ui/AvatarDropdown/AvatarDropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/notificationButton/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/notificationButton/ui/NotificationButton/NotificationButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/notificationButton/ui/NotificationButton/NotificationButton.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/notificationButton/ui/NotificationButton/NotificationButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/notifications-20-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Popups/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Popups/styles/consts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Popups/styles/popups.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/Popover/Popover.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/Popover/Popover.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/loaders/buildBabelLoader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/loaders/buildBabelLoader.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Country/ui/CountrySelect/CountrySelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Country/ui/CountrySelect/CountrySelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Currency/ui/CurrencySelect/CurrencySelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Currency/ui/CurrencySelect/CurrencySelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Dropdown/Dropdown.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/Dropdown/Dropdown.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Dropdown/Dropdown.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/Dropdown/Dropdown.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Dropdown/Dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/Dropdown/Dropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ListBox/ListBox.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/ListBox/ListBox.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ListBox/ListBox.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/ListBox/ListBox.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ListBox/ListBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Popups/ui/ListBox/ListBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/NavBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,40 +79,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/bosssvit/Ulbi course/blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.selected.package.eslint": "/Users/bosssvit/Ulbi course/blog/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "/Users/bosssvit/Ulbi course/blog/node_modules/stylelint",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bosssvit/Ulbi course/blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/stylelint&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bosssvit/Ulbi course/blog/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/ui/Popups/ui" />
       <recent name="$PROJECT_DIR$/src/features/editableProfileCard/ui" />
       <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model" />
       <recent name="$PROJECT_DIR$/src/shared/" />
       <recent name="$PROJECT_DIR$/src/pages/ArticleEditPage/ui/ArticleEditPage" />
-      <recent name="$PROJECT_DIR$/src/widgets" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/shared/ui/Popups/styles/consts.ts" />
       <recent name="$PROJECT_DIR$/src/entities/Article/model/consts/articleConsts.ts" />
       <recent name="$PROJECT_DIR$/src/entities/User/model/consts/userConsts.ts" />
       <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model/consts/consts.ts" />
       <recent name="$PROJECT_DIR$/src/features/editableProfileCard/model/types/editableProfileCardSchema.ts" />
-      <recent name="$PROJECT_DIR$/src/features/articleRecommendationsList/api/articleRecommendationsApi.ts" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.report.html (1)">
@@ -152,14 +183,8 @@
       <workItem from="1720691412443" duration="22937000" />
       <workItem from="1722152339323" duration="963000" />
       <workItem from="1722153316393" duration="18709000" />
-      <workItem from="1722262916676" duration="3332000" />
-    </task>
-    <task id="LOCAL-00050" summary="change readme">
-      <created>1712316128152</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1712316128155</updated>
+      <workItem from="1722262916676" duration="11178000" />
+      <workItem from="1722344178149" duration="1827000" />
     </task>
     <task id="LOCAL-00051" summary="change branches">
       <created>1712327005342</created>
@@ -497,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722263959860</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="78 configure babel for typescript, add fork ts checker, add custom babel plugin">
+      <created>1722266591030</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1722266591030</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,8 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="36 add tests for login feature" />
-    <MESSAGE value="37 add profile page and entities, optimize components with memo" />
     <MESSAGE value="38 add and use apiUrl" />
     <MESSAGE value="38 add and use apiUrl, disable test loginByUsername.test.ts" />
     <MESSAGE value="39-40 fix typings, add profile, fix tests" />
@@ -540,7 +570,9 @@
     <MESSAGE value="75 migrate to react 18, add mock for storybook" />
     <MESSAGE value="76 add isolated ts modules option and fix all errors" />
     <MESSAGE value="77 add circular dependency plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="77 add circular dependency plugin" />
+    <MESSAGE value="78 configure babel for typescript, add fork ts checker, add custom babel plugin" />
+    <MESSAGE value="79 add popover, add notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="79 add popover, add notifications" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
